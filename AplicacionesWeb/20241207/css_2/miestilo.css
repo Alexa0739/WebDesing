@@ -1,0 +1,10 @@
+header {background-color: rgb(126, 179, 225);padding: 16px;text-align: center;}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+main {background-color: rgb(227, 190, 217);padding: 16px;text-align: center;}
+footer {background-color: rgb(237, 136, 144);text-align: center;}
+li {background-color: lightgray;}
+img {float: left;}

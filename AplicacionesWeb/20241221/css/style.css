@@ -1,0 +1,80 @@
+body {
+    border: 2px blue dotted;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;   
+}
+
+header, nav, main, footer{
+    border: 2px red dotted;
+    width: 100%;
+    height: 100px;
+}
+
+header, nav {
+    height: 40px;
+}
+main {
+    height: auto;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+section {
+    border: solid 1px green;
+    width: 300px;
+    height: auto;
+    padding: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section p {
+    width: 100%;
+    margin: 0px;
+}
+
+
+article {
+    border: 1px dashed orange;
+    width: 50px;
+    height: 50px;
+    border-radius: 0.5rem;
+    background-color: bisque;
+    margin: 0.5px;
+}
+
+#sec_one {
+    justify-content: flex-end;
+}
+#sec_two {
+    justify-content: center;
+}
+#sec_three {
+    justify-content: space-around;
+}
+#sec_four{
+    justify-content: space-between;
+}
+#sec_five {
+    justify-content: space-evenly;
+}
+
+footer {
+    height: auto;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+#sec_uno {
+    justify-content: center;
+}
+
+#flex {
+    height: 100px;
+    width: 50px;
+    border-radius: 1rem;
+}

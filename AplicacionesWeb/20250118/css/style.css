@@ -1,0 +1,20 @@
+#division {
+    border: 2px solid rgba(124, 104, 238, 0.816);
+    height: 100px;
+    background-color: rgba(0, 0, 255, 0.327);
+    padding: 1rem;
+    margin: 2rem 1rem;
+}
+
+header {
+    border: 5px dashed rgba(198, 13, 174, 0.587);
+    background-color: rgba(137, 43, 226, 0.301);
+    padding: 1rem 2rem 3rem 4rem;
+}
+
+p {
+    border: 1px dotted rgba(98, 0, 255, 0.41);
+    padding-left: 2rem;
+    padding-right: 3rem;
+    border-radius: 1rem;
+}
