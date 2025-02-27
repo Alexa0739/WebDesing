@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Multiplicar pidiendo multiplos</title>
+</head>
+<body>
+
+    <section id="tabla"></section>
+
+    <script>
+
+        const contenedor = document.getElementById("tabla")
+
+        const numero = prompt("que numero deseas para la tabla de multiplicar")
+        const multi = prompt("cuantos multiplos deseas")
+
+        for (let multi = 1; j <= 0; j++) {
+           
+            const parrafo = document.createElement("p");
+
+            parrafo.textContent = `${numero} x ${j} = ${numero * j}`;
+
+            contenedor.appendChild(parrafo)
+        }  
+    </script>
+    
+
+    
+</body>
+</html>
+

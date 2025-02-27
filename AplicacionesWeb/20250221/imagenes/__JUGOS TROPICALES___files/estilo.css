@@ -1,0 +1,9957 @@
+@font-face {
+  font-family:"Roboto Regular";
+  src:url("../fonts/Roboto-Regular.eot?") format("eot"),
+      url("../fonts/Roboto-Regular.woff") format("woff"),
+      url("../fonts/Roboto-Regular.ttf") format("truetype"),
+      url("../fonts/Roboto-Regular.svg#Roboto-Regular") format("svg");
+  font-weight:normal;
+  font-style:normal;
+}
+
+@font-face {
+    font-family: 'biotifblack';
+    src: url('../fonts/biotif-black-webfont.eot');
+    src: url('../fonts/biotif-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/biotif-black-webfont.woff2') format('woff2'),
+         url('../fonts/biotif-black-webfont.woff') format('woff'),
+         url('../fonts/biotif-black-webfont.ttf') format('truetype'),
+         url('../fonts/biotif-black-webfont.svg#biotifblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#contenedor{
+  width:100%;
+  overflow:hidden;
+  position:relative;
+  color: #6c6c6c;
+  font-size: 19px;
+  font-family:"Roboto Regular";
+}
+
+.pad{
+  padding-left:0px;
+  padding-right:0px;
+}
+
+.clear{
+  clear:both;
+}
+
+#home{
+  padding: 60px 0px;
+  background-image: url(../img/fondo.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#home h1{
+  text-align: center;
+  font-family: "TeXGyreAdventor-Bold";
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: normal;
+  color: #8dc73f;
+}
+
+#home h2{
+  font-family: "TeXGyreAdventor-Bold";
+  color: #0fa3b8;
+  font-size: 30px;
+  text-align: center;
+}
+
+#home p{
+  font-family:"TeXGyreAdventor-Regular";
+  text-align: center;
+  font-size: 20px;
+  margin-top: 15px;
+  border-top: solid 1px #000000;
+}
+
+#home_logo{
+  margin-top:6%;
+}
+
+.link {
+  width: 70%;
+  padding: 7px 0px;
+  float: left;
+  position: relative;
+  background-color: #fff6;
+  border-radius: 15px;
+  border: solid 2px #FFFFFF;
+  margin-left: 15%;
+}
+
+#header{
+  background-color: #fff;
+}
+
+.logo a {
+  position: relative;
+  float: left;
+  z-index: 99999999;
+}
+
+.datos_header{
+  padding-top: 50px;
+  line-height: 16px;
+  font-family: 'biotifblack';
+}
+
+.datos_header h1{
+  color: #799b36;
+  font-size: 15px;
+  text-align: left;
+}
+
+.datos_header p{
+  font-size: 15px;
+  line-height: 22px;
+  text-align: left;
+  color: #000;
+}
+
+.ico1{
+  float: left;
+  width: 46px;
+  height:108px;
+}
+
+#barra-menu{
+  padding: 2px 0px;
+  background-color: #000;
+}
+
+#menu{
+  background: transparent;
+  width: 100%;
+  margin-bottom:0;
+  border: none;
+  min-height: 10px;
+}
+
+.menu {
+  text-align:center;
+}
+
+#navbar li{
+  display: inline-block;
+  margin: 0px 93px;
+}
+
+#navbar a{
+  color: #fff;
+  position: relative;
+  display:block;
+  padding: 9px 14px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'biotifblack';
+  padding-bottom: 12px;
+}
+
+#navbar a:hover{
+  text-decoration: underline;
+}
+
+#navbar .selec{
+  text-decoration: underline;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: #000;
+}
+  
+nav .me{
+  font-family: 'biotifblack';
+  color:#000;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+#banner{
+  margin-top:12%;
+}
+
+#nosotros {
+  padding: 122px 0px;
+}
+
+#nosotros h1{
+  font-family: 'biotifblack';
+  color: #444443;
+  font-size: 47px;
+  margin-top: -63px;
+}
+
+#nosotros h2{
+  font-family: 'biotifblack';
+  font-size: 90px;
+  color: #F9F3D3;
+}
+
+#nosotros p{
+  font-size: 19px;
+  color: #6c6c6c;
+  line-height: 25px;
+}
+
+#h_procesos{
+  padding: 82px 0px;
+  background-image: url(../img/procesos/home_procesos.jpg);
+}
+
+#h_procesos h1{
+  font-size: 72px;
+  color: #fff;
+  padding-bottom:55px;
+  text-align: center;
+  font-family: 'biotifblack';
+  text-shadow: 3px 4px 3px #000;
+}
+
+#h_productos{
+  padding: 92px 0px;
+}
+
+#h_productos h1{
+  font-family: 'biotifblack';
+  font-size: 90px;
+  color: #F9F3D3;
+  text-align: center;
+}
+
+#h_productos h2{
+  font-size:47px;
+  color: #434146;
+  margin-top: -66px;
+  padding-bottom:55px;
+  text-align: center;
+  font-family: 'biotifblack';
+}
+
+.link1{
+  float: left;
+  position: relative;
+}
+
+.link1:hover .texto-link1{
+  background-color:#5EC53A;
+}
+
+.texto-link1{
+  position: absolute;
+  top:4%;
+  right: 0px;
+  padding: 11px 29px;
+  background-color:#000;
+  box-shadow: -2px 3px 4px #000000a1;
+}
+
+.texto-link1 h3{
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: 'biotifblack';
+  color: #FFF;
+  text-align: left;
+}
+
+.link2{
+  float: left;
+  position: relative;
+}
+
+.link2:hover .texto-link2{
+  background-color:#5EC53A;
+}
+
+.texto-link2{
+  position: absolute;
+  bottom:4%;
+  width: 53%;
+  padding: 11px 29px;
+  background-color:#000;
+  box-shadow: 1px 3px 4px #000000a1;
+}
+
+.texto-link2 h3{
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: 'biotifblack';
+  color: #FFF;
+  text-align:center;
+}
+
+#vita{
+  margin: 35px 0px;
+  background-color: #BCE5AB;
+}
+
+.vita{
+  margin-top: 11%;
+}
+
+.vita p{
+  font-size: 20px;
+  line-height: 28px;
+  padding-bottom: 40px;
+}
+
+.vita h1{
+  font-family: 'biotifblack';
+  font-size: 47px;
+  padding-bottom: 25px;
+}
+
+.vita a{
+  width: 134px;
+  height:51px; 
+  float: left;
+  background-image: url(../img/productos/flecha.png);
+}
+
+.vita a:hover{
+  background-image: url(../img/productos/flecha-h.png);
+}
+
+#h_productos2{
+  margin: 35px 0px;
+}
+
+.h_productos2{
+  margin-top: 8%;
+  padding-left: 8%;
+}
+
+.h_productos2 a{
+  width: 134px;
+  height:51px; 
+  float: left;
+  background-image: url(../img/aguas/flecha.png);
+}
+
+.h_productos2 a:hover{
+  background-image: url(../img/aguas/flecha-h.png);
+}
+
+.h_productos2 p{
+  font-size: 20px;
+  line-height: 28px;
+  padding-bottom: 40px;
+}
+
+.h_productos2 h1{
+  font-family: 'biotifblack';
+  font-size: 47px;
+  padding-bottom: 25px;
+}
+
+.aguas{
+  background-image: url(../img/aguas/bg.jpg);
+  background-repeat: no-repeat;
+}
+
+.maquilas{
+  background-color: #fff;
+}
+
+.link3{
+  float: left;
+  position: relative;
+}
+
+.link3:hover .texto-link3{
+  background-color:#5EC53A;
+}
+
+.texto-link3{
+  position: absolute;
+  bottom:4%;
+  width: 40%;
+  padding: 11px 29px;
+  background-color:#000;
+  box-shadow: 1px 3px 4px #000000a1;
+}
+
+.texto-link3 h3{
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: 'biotifblack';
+  color: #FFF;
+  text-align:center;
+}
+
+.link4{
+  float: left;
+  position: relative;
+}
+
+.link4:hover .texto-link4{
+  background-color:#5EC53A;
+}
+
+.texto-link4{
+  position: absolute;
+  top:4%;
+  width: 53%;
+  padding: 11px 29px;
+  background-color:#000;
+  box-shadow: 1px 3px 4px #000000a1;
+}
+
+.texto-link4 h3{
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: 'biotifblack';
+  color: #FFF;
+  text-align:center;
+}
+
+#maquilas{
+  background-image: url(../img/maquilas/bg_frutas.jpg);
+  background-position: center;
+  background-repeat:no-repeat;
+  padding: 180px 0px;
+}
+
+#maquilas h1{
+  color: #000;
+  font-family: 'biotifblack';
+  text-align: center;
+}
+
+footer{
+  padding: 19px 0px;
+  background-color: #000;
+}
+
+footer p{
+  color: #fff;
+  font-size: 20px !important;
+  line-height: 26px !important;
+  display: flex !important;
+  margin-bottom: 13px !important;
+}
+
+footer span {
+  float: left;
+  padding-right: 8px;
+}
+
+#redes {
+  position: relative;
+  float: right;
+}
+
+#redes p{
+  width: 100%;
+  color: #fff;
+  float: left;
+  font-size: 20px;
+}
+
+#fb {
+  display: inline-block;
+  background: url(../img/redes.png) no-repeat;
+  width:51px;
+  height: 51px;
+}
+
+#ins {
+  display: inline-block;
+  background: url(../img/redes.png) -51px 0px  no-repeat;
+  width: 51px;
+  height: 51px;
+}
+
+#you {
+  display: inline-block;
+  background: url(../img/redes.png)  no-repeat right 0px;
+  width: 51px;
+  height: 51px;
+}
+
+#web{
+  padding: 10px 0px;
+  background-color: #8CBB2D;
+  text-align: right;
+}
+
+#web a{
+  display: inline-block;
+  background: url(../img/web.png) no-repeat right;
+  padding-right: 147px;
+  color: #FFF !important;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+
+#titulo {
+  padding-top: 194px;
+  padding-bottom:59px;
+  background-size: cover;
+  margin-top: 12%;
+}
+
+#titulo h1 {
+  color: #FFF;
+  font-size: 80px;
+  text-transform: uppercase;
+  font-family: 'biotifblack';
+  text-shadow: 4px 2px 3px #000000de;
+  padding-bottom: 15px;
+}
+
+.bg1{
+  background-image: url(../img/empresa/bg.jpg);
+  background-size: cover;
+}
+
+.bg3{
+  background-image: url(../img/productos/bg.jpg);
+  background-size: cover;
+}
+
+.bg3a{
+  background-image: url(../img/aguas_preparadas/bg2.jpg);
+  background-size: cover;
+}
+
+.bg3b{
+  background-image: url(../img/fresco/bg.jpg);
+  background-size: cover;
+}
+
+.bg3c{
+  background-image: url(../img/vitadeli/bg.jpg);
+  background-size: cover;
+}
+
+.bg3d{
+  background-image: url(../img/nectares/bg.jpg);
+  background-size: cover;
+}
+
+.bg3e{
+  background-image: url(../img/limonadas/bg.jpg);
+  background-size: cover;
+}
+
+.bg3f{
+  background-image: url(../img/hidratantes/bg.jpg);
+  background-size: cover;
+}
+
+.bg3g{
+  background-image: url(../img/aguas/bg2.jpg);
+  background-size: cover;
+}
+
+.bg3h{
+  background-image: url(../img/tes/bg.jpg);
+  background-size: cover;
+}
+
+.bg3i{
+  background-image: url(../img/maquilas/bg.jpg);
+  background-size: cover;
+}
+
+.bg4{
+  background-image: url(../img/servicios/bg.jpg);
+  background-size: cover;
+}
+
+.bg5{
+  background-image: url(../img/bg_contacto.jpg);
+  background-size: cover;
+}
+
+#empresa h1{
+  font-family: 'biotifblack';
+  color: #454545;
+  text-align: center;
+  font-size: 28px;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+  line-height: 37px;
+}
+
+#empresa p{
+  line-height: 25px;
+}
+
+#empresa{
+  font-size: 19px;
+  text-align: center;
+}
+
+.hojas{
+  width: 100%;
+  height: 228px;
+  background-image: url(../img/empresa/hojas1.png);
+  background-repeat: repeat-x;
+}
+
+#empresa_img{
+  z-index:8;
+}
+
+#empresa_text{
+  background-color: #E9386E;
+  margin-top: -4%;
+}
+
+.empresa_text{
+  padding: 146px 70px;
+}
+
+.empresa_text p{
+  color: #fff;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.empresa_img2{
+  position: absolute;
+  padding-top: 22px;
+  left: 1%;
+}
+
+#valores{
+  margin-top: 11%;
+}
+
+#valores h1{
+  font-family: 'biotifblack';
+  font-size: 90px;
+  text-align: center;
+  color: #F9F3D3;
+}
+
+#valores h2{
+  color: #454545;
+  font-family: 'biotifblack';
+  font-size: 48px;
+  text-align: center;
+  margin-top: -5%;
+}
+
+#valores p{
+  text-align: center;
+  padding: 47px 173px;
+  line-height: 23px;
+}
+
+.valor{
+  margin-top:62px;
+}
+
+.valor h1{
+  text-align: center;
+  font-family: 'biotifblack';
+  color: #454545;
+  font-size: 30px;
+  padding: 10px 0px;
+}
+
+.valor p{
+  text-align: center;
+}
+
+#politicas{
+  margin-top: 6%;
+  background-color: #BCE5AB;
+  border-top: 32px solid #EFEFEF;
+  border-bottom: 32px solid #EFEFEF;
+}
+
+.politicas{
+  padding-left: 55px;
+}
+
+.politicas h1{
+  margin-top: 20%;
+  font-family: 'biotifblack';
+  color: #040001;
+  padding-bottom: 30px;
+  font-size: 47px;
+}
+
+.politicas p{
+  color: #000;
+  line-height: 30px;
+}
+
+#productos h1{
+  text-align: center !important;
+  line-height: 26px !important;
+  padding-bottom: 60px !important;
+}
+
+.link2{
+  width: 100%;
+  float: left;
+  position: relative;
+}
+
+.texto-link{
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 100%;
+  padding: 11px 29px;
+  text-align: center;
+}
+
+.texto-link p{
+  font-size: 20px;
+  padding-top: 8px;
+  color: #fff;
+  font-family: 'biotifblack';
+  text-shadow: 3px 2px 2px #000;
+}
+
+.texto-link h2{
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: 'biotifblack';
+  padding-bottom: 6px;
+  color: #FFF;
+  text-align: center;
+  text-shadow: 3px 2px 2px #000;
+  margin-top: 23%;
+}
+
+.texto-link h3{
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: 'biotifblack';
+  padding-bottom: 6px;
+  color: #FFF;
+  text-align: center;
+  text-shadow: 2px 3px 2px #000000bd;
+  margin-top: 49%;
+}
+
+.texto-link h4{
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: 'biotifblack';
+  padding-bottom: 6px;
+  color: #FFF;
+  text-align: center;
+  text-shadow: 2px 3px 2px #000000bd;
+  margin-top: 16%;
+}
+
+.link2:hover .texto-link{
+  background-color: #00000096;
+}
+
+.link2:hover .texto-link p{
+  color: #CCE846;
+}
+
+.productos_det{
+  padding-top: 130px;
+  padding-left: 95px;
+  padding-right: 111px;
+}
+
+.productos_det h1{
+  font-family: 'biotifblack';
+  color: #E8386D;
+  font-size: 59px;
+}
+
+.productos_det h2{
+  font-family: 'biotifblack';
+  font-size: 24px;
+  padding-bottom: 12px;
+  padding-top: 20px;
+  color: #E8386D;
+}
+
+.productos_det p{
+  line-height: 23px;
+  padding-bottom: 15px;
+}
+
+#carousel-int1 .carousel-indicators {
+  bottom: 4%;
+  left: 92%;
+}
+
+#carousel-int1 .carousel-indicators li {
+  background-color: #fff;
+  border:2px solid #73D500;
+}
+
+#carousel-int1 .carousel-indicators .active{
+  background-color:#F3E083;
+  border:2px solid #fff;
+}
+
+#carousel-int1  .carousel-indicators li {
+  width: 20px;
+  height: 20px;
+}
+
+.productos_det2{
+  padding-top: 130px;
+  padding-left: 197px;
+  padding-right: 111px;
+}
+
+.productos_det2 h1{
+  font-family: 'biotifblack';
+  color: #C9D72C;
+  font-size: 59px;
+}
+
+.productos_det2 h2{
+  font-family: 'biotifblack';
+  font-size: 24px;
+  padding-bottom: 12px;
+  color:#C9D72C;
+}
+
+.productos_det2 p{
+  padding-bottom: 15px;
+  line-height: 21px;
+}
+
+#carousel-int2 .carousel-indicators {
+  bottom: 4%;
+  left: 92%;
+}
+
+#carousel-int2 .carousel-indicators li {
+  background-color: #fff;
+  border:2px solid #73D500;
+}
+
+#carousel-int2 .carousel-indicators .active{
+  background-color:#F3E083;
+  border:2px solid #fff;
+}
+
+#carousel-int2  .carousel-indicators li {
+  width: 20px;
+  height: 20px;
+}
+
+.productos_det3{
+  padding-top: 130px;
+  padding-left: 106px;
+  padding-right: 111px;
+}
+
+.productos_det3 h1{
+  font-family: 'biotifblack';
+  color: #00B21E;
+  font-size: 59px;
+}
+
+.productos_det3 h2{
+  font-family: 'biotifblack';
+  font-size: 24px;
+  padding-bottom: 12px;
+  color:#00B21E;
+}
+
+.productos_det3 p{
+  padding-bottom: 15px;
+  line-height: 21px;
+}
+
+#carousel-int3 .carousel-indicators {
+  bottom: 4%;
+  left: 92%;
+}
+
+#carousel-int3 .carousel-indicators li {
+  background-color: #fff;
+  border:2px solid #73D500;
+}
+
+#carousel-int3 .carousel-indicators .active{
+  background-color:#F3E083;
+  border:2px solid #fff;
+}
+
+#carousel-int3  .carousel-indicators li {
+  width: 20px;
+  height: 20px;
+}
+
+#frase{
+  padding: 100px 0px;
+  background-color: #000;
+  color: #fff;
+}
+
+#frase h1{
+  font-family: 'biotifblack';
+  text-align: center;
+  font-size: 59px;
+  padding-bottom: 35px;
+}
+
+#frase p{
+  text-align: center;
+}
+
+.bg_preparadas{
+  background-image: url(../img/aguas_preparadas/bg_img.jpg);
+  background-size: cover;
+  padding-bottom: 51px;
+}
+
+#presentaciones h1{
+  font-family: 'biotifblack';
+  text-align: center;
+  font-size: 24px;
+  padding-top: 130px;
+  padding-bottom: 15px;
+  color: #E7386D;
+}
+
+#presentaciones p{
+  text-align: center;
+  padding-bottom: 65px;
+  line-height: 21px;
+}
+
+#carousel-pre1 .carousel-indicators {
+  bottom: 2%;
+}
+
+#carousel-pre1 .carousel-indicators li {
+  background-color: #fff;
+  border:2px solid #73D500;
+}
+
+#carousel-pre1 .carousel-indicators .active{
+  background-color:#F3E083;
+  border:2px solid #fff;
+}
+
+#carousel-pre1  .carousel-indicators li {
+  width: 20px;
+  height: 20px;
+}
+
+.volver{
+  background-image: url(../img/vitadeli/volver.jpg);
+  background-size: cover;
+  padding: 140px 0px;
+  float: left;
+  position: relative;
+  text-align: center;
+}
+
+.volver a{
+  font-family: 'biotifblack';
+  font-size: 30px;
+  background-color: #000;
+  text-decoration: none;
+  color: #fff;
+  padding: 20px 37px;
+}
+
+.volver a:hover{
+  background-color: #E9386E;
+}
+
+#delicious{
+  padding-top: 120px;
+  background-color: #FFEDE3;
+}
+
+.bg_delicious{
+  width: 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-image: url(../img/aguas_preparadas/bg.jpg);
+}
+
+#delicious h1{
+  text-align: center;
+  font-family: 'biotifblack';
+  font-size: 59px;
+  color: #000000;
+  padding-bottom: 40px;
+}
+
+#delicious p{
+  text-align: center;
+  color: #000000;
+}
+
+#detalle{
+  width: 33%;
+  padding-top: 15%;
+}
+
+#detalle h3{
+  font-family: 'biotifblack';
+  font-size: 23px;
+  color: #E9396A;
+  padding-bottom: 16px;
+}
+
+#detalle p{
+  text-align: left;
+  color: #6c6c6c;
+  line-height: 25px;
+}
+
+#carousel-del1 .carousel-indicators {
+  bottom: 2%;
+}
+
+#carousel-del1 .carousel-indicators li {
+  background-color: #fff;
+  border:2px solid #73D500;
+}
+
+#carousel-del1 .carousel-indicators .active{
+  background-color:#F3E083;
+  border:2px solid #fff;
+}
+
+#carousel-del1  .carousel-indicators li {
+  width: 20px;
+  height: 20px;
+}
+
+.productos_det4{
+  padding-top: 148px;
+  padding-left: 156px;
+  padding-right: 111px;
+}
+
+.productos_det4 h1{
+  font-family: 'biotifblack';
+  color: #00B21E;
+  font-size: 59px;
+  padding-bottom: 25px;
+}
+
+.productos_det4 h2{
+  font-family: 'biotifblack';
+  font-size: 24px;
+  padding-bottom: 12px;
+  color:#00B21E;
+}
+
+.productos_det4 p{
+  padding-bottom: 15px;
+  line-height: 21px;
+}
+
+.productos_det5{
+  padding-top: 130px;
+  padding-left: 88px;
+  padding-right: 111px;
+}
+
+.productos_det5 h1{
+  font-family: 'biotifblack';
+  color: #C9D72C;
+  font-size: 59px;
+}
+
+.productos_det5 h2{
+  font-family: 'biotifblack';
+  font-size: 24px;
+  padding-bottom: 12px;
+  color:#C9D72C;
+}
+
+.productos_det5 p{
+  padding-bottom: 32px;
+  line-height: 21px;
+}
+
+.productos_det6{
+  padding-top: 130px;
+  padding-left: 164px;
+  padding-right: 111px;
+}
+
+.productos_det6 h1{
+  font-family: 'biotifblack';
+  color: #E8386D;
+  font-size: 59px;
+}
+
+.productos_det6 h2{
+  font-family: 'biotifblack';
+  font-size: 24px;
+  padding-bottom: 12px;
+  padding-top: 20px;
+  color: #E8386D;
+}
+
+.productos_det6 p{
+  line-height: 23px;
+  padding-bottom: 15px;
+}
+
+#agua_panela{
+  background-image: url(../img/aguas_preparadas/bg_panela.jpg);
+  background-repeat: repeat-x;
+  background-position: center right;
+  background-size: cover;
+}
+
+.detalle_panela{
+  margin-top: 7%;
+  padding-left: 91px;
+  padding-right: 163px;
+}
+
+.detalle_panela h1{
+  color: #00B321;
+  font-family: 'biotifblack';
+  font-size: 59px;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.detalle_panela h2{
+  font-family: 'biotifblack';
+  font-size: 24px;
+  color: #00B321;
+  padding-bottom: 15px;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.detalle_panela p{
+  color: #000;
+  line-height: 21px;
+  padding-bottom: 15px;
+}
+
+.detalle_panela2{
+  margin-top: 7%;
+  padding-left: 198px;
+  padding-right: 140px;
+}
+
+.detalle_panela2 h1{
+  color: #C9D62F;
+  font-family: 'biotifblack';
+  font-size: 59px;
+}
+
+.detalle_panela2 h2{
+  font-family: 'biotifblack';
+  font-size: 24px;
+  color: #C9D62F;
+  padding-bottom: 15px;
+}
+
+.detalle_panela2 p{
+  line-height: 22px;
+  padding-bottom: 15px;
+}
+
+.fresco{
+  padding-top: 95px;
+}
+
+.fresco p{
+  text-align: center;
+  color: #000;
+  line-height: 23px;
+}
+
+#nectares{
+  padding: 65px 0px;
+}
+
+#nectares h1{
+  color: #000;
+}
+
+#nectares h2{
+  padding-top: 65px;
+  padding-bottom: 45px;
+  font-size: 24px;
+  color:#E9487A;
+  text-align: center;
+  font-family: 'biotifblack';
+}
+
+#nectares p{
+  line-height: 24px;
+  text-align: center;
+}
+
+#nectares .presentacion{
+  padding: 115px 0px;
+  background-color: #000;
+}
+
+#nectares .presentacion h1{
+  text-align: center;
+  color: #fff;
+  font-family: 'biotifblack';
+  font-size: 24px;
+  padding-bottom: 65px;
+}
+
+#nectares .presentacion p{
+  color: #fff;
+  text-align: center;
+}
+
+.bg_limonadas{
+  background-image: url(../img/limonadas/bg_limonada.jpg);
+  background-size: cover;
+  padding-bottom: 51px;
+}
+
+.bg_aguas{
+  background-image: url(../img/aguas/bg_aguas.jpg);
+  background-size: cover;
+}
+
+#tes{
+  background-color:#EAEAEA;
+  padding: 107px 0px;
+  color: #000;
+}
+
+#tes p{
+  text-align: center;
+}
+
+#tes h1{
+  font-family: 'biotifblack';
+  text-align: center;
+  font-size: 24px;
+  padding-top: 50px;
+  padding-bottom: 15px;
+  color: #E7386D;
+}
+
+#tes h2{
+  text-align: center;
+}
+
+#presentaciones2{
+  padding: 85px 0px;
+}
+
+#presentaciones2 h1{
+  padding-top: 46px;
+  padding-bottom: 15px;
+  font-size: 24px;
+  color:#E9487A;
+  text-align: center;
+  font-family: 'biotifblack';
+}
+
+#presentaciones2 p{
+  color: #000;
+  line-height: 24px;
+  text-align: center;
+}
+
+#presentaciones2 h2{
+  color: #000;
+  line-height: 24px;
+  text-align: center;
+}
+
+.servicios{
+  padding-left: 6%;
+  padding-right: 5%;
+  padding-top: 3%;
+  padding-bottom: 22px;
+}
+
+.servicios h1{
+  font-family: 'biotifblack';
+  font-size: 99px;
+}
+
+.servicios p{
+  font-size: 30px;
+  font-family: 'biotifblack';
+  color: #424242;
+  padding-bottom: 15px;
+}
+
+.servicios ul li{
+  background-image: url(../img/servicios/li.png);
+  list-style-position: outside;
+  background-position: 0px 5px;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+  line-height: 23px;
+}
+
+.servicios2{
+  padding-right: 5%;
+  padding-left: 10%;
+  padding-top: 6%;
+}
+
+.servicios2 h1{
+  font-family: 'biotifblack';
+  font-size: 99px;
+}
+
+.servicios2 p{
+  font-size: 30px;
+  font-family: 'biotifblack';
+  color: #424242;
+  padding-bottom: 15px;
+}
+
+.servicios2 ul li{
+  background-image: url(../img/servicios/li.png);
+  list-style-position: outside;
+  background-position: 0px 5px;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+  line-height: 23px;
+}
+
+.rojo{
+    color: #EB376E;
+}
+
+.verde{
+  color: #C5D52D;
+}
+
+.v_oscuro{
+  color: #00B220;
+}
+
+#contacto{
+  padding: 80px 0px;
+}
+
+#datos{
+  padding-top: 39px;
+  padding-right: 70px;
+}
+
+#datos h1{
+  font-family: 'biotifblack';
+  color: #434343;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+
+#datos p{
+  padding-bottom: 45px;
+  text-align: justify;
+  line-height: 25px;
+}
+
+.datos{
+  padding-bottom: 15px;
+}
+
+.datos h4{
+  font-family: 'biotifblack';
+  font-size: 20px;
+  color: #000;
+  line-height: 26px;
+  display: flex;
+}
+
+.datos span {
+  float: left;
+  padding-right: 11px;
+}
+
+#formulario{
+  padding:36px 0px;
+}
+
+#formulario h3{
+  color: #000;
+  text-transform: uppercase;
+  padding-top: 17px;
+  font-family: 'biotifblack';
+  font-size: 17px;
+}
+
+#formulario input {
+  width: 100%;
+  background-color:#000000;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  padding: 7px;
+  margin-top: 5px;
+}
+
+#formulario textarea {
+  width: 100%;
+  background-color:#000000;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  margin-top: 5px;
+  height: 120px;
+}
+
+#formulario p {
+  text-align: left;
+  color:#173e66!important;
+  padding-bottom: 85px;
+  line-height: 23px;
+}
+
+#formulario ul li{
+  float: left;
+  color: #000;
+  margin: 8px 9px;
+  font-size: 18px;
+}
+
+#formulario h4 {
+  text-align: left;
+  float: left;
+  font-size: 16px; 
+  margin-top:12px !important;
+}
+
+#formulario .check {
+  text-align: left;
+  float: none;
+  display: inline-block;
+  width: auto;
+}
+
+#enviar {
+  width: 100px !important;
+  cursor: pointer;
+  position: relative;
+  float: right;
+  color: #fff !important;
+  text-align: center;
+  font-size: 20px !important;
+  margin-top: 41px !important;
+  padding: 10px 0px !important;
+  background:#000 !important;
+  margin-right: 15px;
+  font-family: 'biotifblack' !important;
+  border: none !important;
+}
+
+#enviar:hover{
+  background-color: #E6386D !important;
+}
+
+#borrar {
+  width: 100px !important;
+  cursor: pointer;
+  position: relative;
+  float: right;
+  color: #fff !important;
+  text-align: center;
+  font-size: 20px !important;
+  margin-top: 41px !important;
+  padding: 10px 0px !important;
+  background:#000 !important;
+  border: none !important;
+  font-family: 'biotifblack' !important;
+}
+
+#borrar:hover{
+  background-color: #E6386D !important;
+}
+
+.btn a {
+  float: left;
+  display: inline-block;
+  padding: 4px 18px;
+  margin-top: 45px;
+  background: #000;
+  color: #fff;
+  font-size: 22px;
+  text-decoration: none;
+  font-family: 'biotifblack' !important;
+}
+
+.btn a:hover{
+  background-color: #E9386E;
+}
+
+#ampliar {
+  font-family: 'biotifblack' !important;
+  background-color: #000;
+  color: #FFF;
+  padding: 10px 30px;
+  position: absolute;
+  right: 1%;
+  bottom:40px;
+  text-decoration: none !important;
+  font-size: 22px;
+}
+
+#ampliar:hover{
+  background: #E9386E;
+}
+
+#map{
+  height:600px;
+}
+
+#back-top {
+  background-image: url(../img/whatsapp.png);
+  background-repeat: no-repeat;
+  width: 51px;
+  height: 51px;
+  position: fixed;
+  right: 15px;
+  z-index: 900;
+  bottom: 18px;
+}
+
+
+
+/*----------------------------------------------------------------------------------*/
+
+
+@media only screen and (max-width: 350px) {
+
+  #navbar a {
+    width: 100%;
+    padding: 7px 0px;
+    border: none;
+  }
+
+  #navbar li{
+    width: 100%;
+    margin:0px;
+  }
+
+  .navbar-header {
+    float: none;
+  }
+
+  .navbar-left,.navbar-right {
+    float: none !important;
+  }
+
+  .navbar-toggle {
+    display: block;
+    border: 1px !important;
+    margin-top: -68px;
+    margin-right: -1px;
+  }
+
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+    
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+
+  .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+    background-color: transparent;
+  }
+
+  .navbar-toggle .icon-bar{
+    width: 36px;
+  }
+
+  .navbar-nav {
+    float: none!important;
+    margin-top: 7.5px;
+    margin-left: 0;
+  }
+
+  .navbar-nav>li {
+    float: none;
+  }
+
+  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    border-color: #fdfdfd00;
+  }
+
+  .navbar-nav>li>a {
+    padding-top: 10px ;
+    padding-bottom: 10px;
+  }
+
+  .collapse.in{
+    display:block !important;
+  }
+
+  #banner{
+    margin-top: 82%;
+  }
+
+  .datos_header{
+    padding-top:4px; 
+  }
+
+  .datos_header h1{
+    text-align: center;
+  }
+
+  .datos_header p{
+    text-align: center;
+    line-height: 17px;
+    padding-bottom: 3px;
+  }
+
+  #nosotros h2{
+    font-size: 29px;
+  }
+
+  #nosotros h1{
+    font-size: 30px;
+    margin-top: -30px;
+  }
+
+  #nosotros p{
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .texto-link1 h3{
+    font-size: 16px;
+  }
+
+  #h_procesos h1{
+    font-size: 58px;
+  }
+
+  #h_productos h1{
+    font-size: 38px;
+  }
+
+  #h_productos h2{
+    font-size: 38px;
+    padding-bottom: 20px;
+  }
+
+  .vita p{
+    font-size: 13px;
+    line-height: 22px;
+  }
+
+  .vita h1{
+    font-size: 40px;
+    padding-bottom: 17px;
+  }
+
+  .texto-link2{
+    width: 100%;
+  }
+
+  .h_productos2 h1{
+    font-size: 33px;
+  }
+
+  .h_productos2 p{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .texto-link3{
+    width: 100%;
+  }
+
+  .texto-link4{
+    width: 100%;
+  }
+
+  #titulo{
+    margin-top: 83%;
+    padding-top: 87px;
+    padding-bottom: 32px;
+  }
+
+  #titulo h1{
+    font-size: 32px;
+  }
+
+  #empresa h1{
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  #empresa p{
+    font-size: 17px;
+    line-height: 23px;
+  }
+
+  .empresa_text{
+    padding: 82px 26px;
+  }
+
+  #valores h1{
+    font-size: 28px;
+  }
+
+  #valores{
+    margin-top: 54%;
+  }
+
+  #valores h2{
+    font-size: 29px;
+    margin-top: -6%;
+  }
+
+  #valores p{
+    padding: 47px 32px;
+  }
+
+  .politicas h1{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 5px;
+  }
+
+  .politicas{
+    padding: 0px;
+  }
+
+  .politicas p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 15px;
+  }
+
+  #productos h1{
+    font-size: 16px;
+    line-height: 25px !important;
+  }
+
+  #delicious h1{
+    font-size: 27px;
+  }
+
+  #delicious p{
+    font-size: 15px;
+    padding-bottom: 45px;
+  }
+
+  #detalle{
+    width: 100%;
+    padding-top: 0%;
+  }
+
+  .productos_det4{
+    padding-top: 74px;
+    padding-left: 17px;
+    padding-right: 9px;
+  }
+
+  .productos_det4 h1{
+    font-size: 28px;
+  }
+
+  #detalle h3{
+    font-size: 19px;
+    padding-bottom: 3px;
+  }
+
+  .productos_det4 p{
+    font-size: 16px;
+  }
+
+  .productos_det4 h2{
+    font-size: 20px;
+  }
+
+  .productos_det5{
+    padding-top: 88px;
+    padding-left: 17px;
+    padding-right: 9px;
+  }
+
+  .productos_det5 h1{
+    font-size: 28px;
+  }
+
+  .productos_det5 h2{
+    font-size: 20px;
+  }
+
+  .productos_det5 p{
+    font-size: 16px;
+  }
+
+  .productos_det6{
+    padding-top: 88px;
+    padding-left: 17px;
+    padding-right: 0px;
+  }
+
+  .productos_det6 h1{
+    font-size: 28px;
+  }
+
+  .productos_det6 p{
+    font-size: 16px;
+  }
+
+  .productos_det6 h2{
+    font-size: 20px;
+  }
+
+  .detalle_panela{
+    margin-top: 7%;
+    padding-left: 22px;
+    padding-right: 8px;
+  }
+
+  .detalle_panela p{
+    font-size: 16px;
+  }
+
+  .detalle_panela h1{
+    font-size: 28px;
+  }
+
+  .detalle_panela2{
+    padding-left: 33px;
+    padding-right: 0px;
+  }
+
+  .detalle_panela2 h1{
+    font-size: 28px;
+  }
+
+  .detalle_panela2 p{
+    font-size: 16px;
+  }
+
+  .detalle_panela2 h2{
+    font-size: 20px;
+  }
+
+  #frase{
+    padding: 70px 0px;
+  }
+
+  #frase h1{
+    font-size: 28px;
+  }
+
+  #frase p{
+    font-size: 17px;
+  }
+
+  #presentaciones p{
+    font-size: 16px;
+  }
+
+  .volver{
+    padding: 76px 0px;
+  }
+
+  .volver a{
+    font-size: 21px;
+    padding: 14px 18px;
+  }
+
+  .fresco p{
+    font-size: 16px;
+  }
+
+  .productos_det{
+    padding-top: 86px;
+    padding-left: 21px;
+    padding-right: 0px;
+  }
+
+  .productos_det h1{
+    font-size: 25px;
+  }
+
+  .productos_det h2{
+    font-size: 20px;
+  }
+
+  .productos_det p{
+    font-size: 16px;
+  }
+
+  .productos_det2{
+    padding-top: 86px;
+    padding-left: 21px;
+    padding-right: 12px;
+  }
+
+  .productos_det2 h1{
+    font-size: 34px;
+  }
+
+  .productos_det2 h2{
+    font-size: 20px;
+  }
+
+  .productos_det2 p{
+    font-size: 16px;
+  }
+
+  .productos_det3{
+    padding-top: 86px;
+    padding-left: 21px;
+    padding-right: 13px;
+  }
+
+  .productos_det3 h1{
+    font-size: 34px;
+  }
+
+  .productos_det3 p{
+    font-size: 16px;
+  }
+
+  .productos_det3 h2{
+    font-size: 20px;
+  }
+
+  #nectares h1{
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #nectares p{
+    font-size: 16px;
+  }
+
+  #nectares .presentacion{
+    padding: 70px 0px;
+  }
+
+  #presentaciones2 h2{
+    font-size: 16px;
+  }
+
+  #tes p{
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  #tes h2{
+    font-size: 16px;
+  }
+
+  #maquilas{
+    padding: 80px 0px;
+  }
+
+  .servicios h1{
+    font-size: 70px;
+  }
+
+  .servicios p{
+    font-size: 22px;
+  }
+
+  .servicios ul li{
+    font-size: 16px;
+  }
+
+  .servicios2{
+    padding-left: 6%;
+  }
+
+  .servicios2 h1{
+    font-size: 70px;
+  }
+
+  .servicios2 p{
+    font-size: 22px;
+  }
+
+  .servicios2 ul li{
+    font-size: 16px;
+  }
+
+  #datos{
+    padding-right: 0px;
+  }
+
+  #datos p{
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  #datos h1{
+    font-size: 23px;
+  }
+
+  .datos h4{
+    font-size: 12px;
+    line-height: 21px;
+  }
+
+  #nosotros{
+    padding: 35px 0px;
+  }
+
+  .btn a{
+    font-size: 16px;
+  }
+
+  footer p{
+    font-size: 15px !important;
+    line-height: 24px !important;
+  }
+ 
+}
+
+
+/*---------------------------------------------------------------------------------------------------------------*/
+@media (max-width: 400px) and (min-width:350px){
+
+  #navbar a {
+    width: 100%;
+    padding: 7px 0px;
+    border: none;
+  }
+
+  #navbar li{
+    width: 100%;
+    margin:0px;
+  }
+
+  .navbar-header {
+    float: none;
+  }
+
+  .navbar-left,.navbar-right {
+    float: none !important;
+  }
+
+  .navbar-toggle {
+    display: block;
+    border: 1px !important;
+    margin-top: -68px;
+    margin-right: -1px;
+  }
+
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+    
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+
+  .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+    background-color: transparent;
+  }
+
+  .navbar-toggle .icon-bar{
+    width: 36px;
+  }
+
+  .navbar-nav {
+    float: none!important;
+    margin-top: 7.5px;
+    margin-left: 0;
+  }
+
+  .navbar-nav>li {
+    float: none;
+  }
+
+  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    border-color: #fdfdfd00;
+  }
+
+  .navbar-nav>li>a {
+    padding-top: 10px ;
+    padding-bottom: 10px;
+  }
+
+  .collapse.in{
+    display:block !important;
+  }
+
+  #banner{
+    margin-top: 72%;
+  }
+
+  .datos_header{
+    padding-top:4px; 
+  }
+
+  .datos_header h1{
+    text-align: center;
+  }
+
+  .datos_header p{
+    text-align: center;
+    line-height: 17px;
+    padding-bottom: 3px;
+  }
+
+  #nosotros h2{
+    font-size: 29px;
+  }
+
+  #nosotros h1{
+    font-size: 30px;
+    margin-top: -30px;
+  }
+
+  #nosotros p{
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .texto-link1 h3{
+    font-size: 16px;
+  }
+
+  #h_procesos h1{
+    font-size: 58px;
+  }
+
+  #h_productos h1{
+    font-size: 38px;
+  }
+
+  #h_productos h2{
+    font-size: 38px;
+    padding-bottom: 20px;
+  }
+
+  .vita p{
+    font-size: 13px;
+    line-height: 22px;
+  }
+
+  .vita h1{
+    font-size: 40px;
+    padding-bottom: 17px;
+  }
+
+  .texto-link2{
+    width: 100%;
+  }
+
+  .h_productos2 h1{
+    font-size: 33px;
+  }
+
+  .h_productos2 p{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .texto-link3{
+    width: 100%;
+  }
+
+  .texto-link4{
+    width: 100%;
+  }
+
+  #titulo{
+    margin-top: 74%;
+    padding-top: 87px;
+    padding-bottom: 32px;
+  }
+
+  #titulo h1{
+    font-size: 32px;
+  }
+
+  #empresa h1{
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  #empresa p{
+    font-size: 17px;
+    line-height: 23px;
+  }
+
+  .empresa_text{
+    padding: 82px 26px;
+  }
+
+  #valores h1{
+    font-size: 28px;
+  }
+
+  #valores{
+    margin-top: 54%;
+  }
+
+  #valores h2{
+    font-size: 29px;
+    margin-top: -6%;
+  }
+
+  #valores p{
+    padding: 47px 32px;
+  }
+
+  .politicas h1{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 5px;
+  }
+
+  .politicas{
+    padding: 0px;
+  }
+
+  .politicas p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 15px;
+  }
+
+  #productos h1{
+    font-size: 16px;
+    line-height: 25px !important;
+  }
+
+  #delicious h1{
+    font-size: 27px;
+  }
+
+  #delicious p{
+    font-size: 15px;
+    padding-bottom: 45px;
+  }
+
+  #detalle{
+    width: 100%;
+    padding-top: 0%;
+  }
+
+  .productos_det4{
+    padding-top: 74px;
+    padding-left: 17px;
+    padding-right: 9px;
+  }
+
+  .productos_det4 h1{
+    font-size: 28px;
+  }
+
+  #detalle h3{
+    font-size: 19px;
+    padding-bottom: 3px;
+  }
+
+  .productos_det4 p{
+    font-size: 16px;
+  }
+
+  .productos_det4 h2{
+    font-size: 20px;
+  }
+
+  .productos_det5{
+    padding-top: 88px;
+    padding-left: 17px;
+    padding-right: 9px;
+  }
+
+  .productos_det5 h1{
+    font-size: 28px;
+  }
+
+  .productos_det5 h2{
+    font-size: 20px;
+  }
+
+  .productos_det5 p{
+    font-size: 16px;
+  }
+
+  .productos_det6{
+    padding-top: 88px;
+    padding-left: 17px;
+    padding-right: 0px;
+  }
+
+  .productos_det6 h1{
+    font-size: 28px;
+  }
+
+  .productos_det6 p{
+    font-size: 16px;
+  }
+
+  .productos_det6 h2{
+    font-size: 20px;
+  }
+
+  .detalle_panela{
+    margin-top: 7%;
+    padding-left: 22px;
+    padding-right: 8px;
+  }
+
+  .detalle_panela p{
+    font-size: 16px;
+  }
+
+  .detalle_panela h1{
+    font-size: 28px;
+  }
+
+  .detalle_panela2{
+    padding-left: 33px;
+    padding-right: 0px;
+  }
+
+  .detalle_panela2 h1{
+    font-size: 28px;
+  }
+
+  .detalle_panela2 p{
+    font-size: 16px;
+  }
+
+  .detalle_panela2 h2{
+    font-size: 20px;
+  }
+
+  #frase{
+    padding: 70px 0px;
+  }
+
+  #frase h1{
+    font-size: 28px;
+  }
+
+  #frase p{
+    font-size: 17px;
+  }
+
+  #presentaciones p{
+    font-size: 16px;
+  }
+
+  .volver{
+    padding: 76px 0px;
+  }
+
+  .volver a{
+    font-size: 21px;
+    padding: 14px 18px;
+  }
+
+  .fresco p{
+    font-size: 16px;
+  }
+
+  .productos_det{
+    padding-top: 86px;
+    padding-left: 21px;
+    padding-right: 0px;
+  }
+
+  .productos_det h1{
+    font-size: 25px;
+  }
+
+  .productos_det h2{
+    font-size: 20px;
+  }
+
+  .productos_det p{
+    font-size: 16px;
+  }
+
+  .productos_det2{
+    padding-top: 86px;
+    padding-left: 21px;
+    padding-right: 12px;
+  }
+
+  .productos_det2 h1{
+    font-size: 34px;
+  }
+
+  .productos_det2 h2{
+    font-size: 20px;
+  }
+
+  .productos_det2 p{
+    font-size: 16px;
+  }
+
+  .productos_det3{
+    padding-top: 86px;
+    padding-left: 21px;
+    padding-right: 13px;
+  }
+
+  .productos_det3 h1{
+    font-size: 34px;
+  }
+
+  .productos_det3 p{
+    font-size: 16px;
+  }
+
+  .productos_det3 h2{
+    font-size: 20px;
+  }
+
+  #nectares h1{
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #nectares p{
+    font-size: 16px;
+  }
+
+  #nectares .presentacion{
+    padding: 70px 0px;
+  }
+
+  #presentaciones2 h2{
+    font-size: 16px;
+  }
+
+  #tes p{
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  #tes h2{
+    font-size: 16px;
+  }
+
+  #maquilas{
+    padding: 80px 0px;
+  }
+
+  .servicios h1{
+    font-size: 70px;
+  }
+
+  .servicios p{
+    font-size: 22px;
+  }
+
+  .servicios ul li{
+    font-size: 16px;
+  }
+
+  .servicios2{
+    padding-left: 6%;
+  }
+
+  .servicios2 h1{
+    font-size: 70px;
+  }
+
+  .servicios2 p{
+    font-size: 22px;
+  }
+
+  .servicios2 ul li{
+    font-size: 16px;
+  }
+
+  #datos{
+    padding-right: 0px;
+  }
+
+  #datos p{
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  #datos h1{
+    font-size: 23px;
+  }
+
+  .datos h4{
+    font-size: 12px;
+    line-height: 21px;
+  }
+
+  #nosotros{
+    padding: 35px 0px;
+  }
+
+  .btn a{
+    font-size: 16px;
+  }
+
+  footer p{
+    font-size: 15px !important;
+    line-height: 24px !important;
+  }
+
+
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------------*/
+
+
+@media (max-width: 450px) and (min-width:400px){
+
+  #navbar a {
+    width: 100%;
+    padding: 7px 0px;
+    border: none;
+  }
+
+  #navbar li{
+    width: 100%;
+    margin:0px;
+  }
+
+  .navbar-header {
+    float: none;
+  }
+
+  .navbar-left,.navbar-right {
+    float: none !important;
+  }
+
+  .navbar-toggle {
+    display: block;
+    border: 1px !important;
+    margin-top: -68px;
+    margin-right: -1px;
+  }
+
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+    
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+
+  .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+    background-color: transparent;
+  }
+
+  .navbar-toggle .icon-bar{
+    width: 36px;
+  }
+
+  .navbar-nav {
+    float: none!important;
+    margin-top: 7.5px;
+    margin-left: 0;
+  }
+
+  .navbar-nav>li {
+    float: none;
+  }
+
+  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    border-color: #fdfdfd00;
+  }
+
+  .navbar-nav>li>a {
+    padding-top: 10px ;
+    padding-bottom: 10px;
+  }
+
+  .collapse.in{
+    display:block !important;
+  }
+
+  #banner{
+    margin-top: 64%;
+  }
+
+  .datos_header{
+    padding-top:4px; 
+  }
+
+  .datos_header h1{
+    text-align: center;
+  }
+
+  .datos_header p{
+    text-align: center;
+    line-height: 17px;
+    color: #0f0;
+    padding-bottom: 3px;
+  }
+
+  #nosotros h2{
+    font-size: 29px;
+  }
+
+  #nosotros h1{
+    font-size: 30px;
+    margin-top: -30px;
+  }
+
+  #nosotros p{
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .texto-link1 h3{
+    font-size: 16px;
+  }
+
+  #h_procesos h1{
+    font-size: 58px;
+  }
+
+  #h_productos h1{
+    font-size: 38px;
+  }
+
+  #h_productos h2{
+    font-size: 38px;
+    padding-bottom: 20px;
+  }
+
+  .vita p{
+    font-size: 13px;
+    line-height: 22px;
+  }
+
+  .vita h1{
+    font-size: 40px;
+    padding-bottom: 17px;
+  }
+
+  .texto-link2{
+    width: 100%;
+  }
+
+  .h_productos2 h1{
+    font-size: 33px;
+  }
+
+  .h_productos2 p{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .texto-link3{
+    width: 100%;
+  }
+
+  .texto-link4{
+    width: 100%;
+  }
+
+  #titulo{
+    margin-top: 64%;
+    padding-top: 87px;
+    padding-bottom: 32px;
+  }
+
+  #titulo h1{
+    font-size: 32px;
+  }
+
+  #empresa h1{
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  #empresa p{
+    font-size: 17px;
+    line-height: 23px;
+  }
+
+  .empresa_text{
+    padding: 82px 26px;
+  }
+
+  #valores h1{
+    font-size: 28px;
+  }
+
+  #valores{
+    margin-top: 54%;
+  }
+
+  #valores h2{
+    font-size: 29px;
+    margin-top: -6%;
+  }
+
+  #valores p{
+    padding: 47px 32px;
+  }
+
+  .politicas h1{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 5px;
+  }
+
+  .politicas{
+    padding: 0px;
+  }
+
+  .politicas p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 15px;
+  }
+
+  #productos h1{
+    font-size: 16px;
+    line-height: 25px !important;
+  }
+
+  #delicious h1{
+    font-size: 27px;
+  }
+
+  #delicious p{
+    font-size: 15px;
+    padding-bottom: 45px;
+  }
+
+  #detalle{
+    width: 100%;
+    padding-top: 0%;
+  }
+
+  .productos_det4{
+    padding-top: 74px;
+    padding-left: 17px;
+    padding-right: 9px;
+  }
+
+  .productos_det4 h1{
+    font-size: 28px;
+  }
+
+  #detalle h3{
+    font-size: 19px;
+    padding-bottom: 3px;
+  }
+
+  .productos_det4 p{
+    font-size: 16px;
+  }
+
+  .productos_det4 h2{
+    font-size: 20px;
+  }
+
+  .productos_det5{
+    padding-top: 88px;
+    padding-left: 17px;
+    padding-right: 9px;
+  }
+
+  .productos_det5 h1{
+    font-size: 28px;
+  }
+
+  .productos_det5 h2{
+    font-size: 20px;
+  }
+
+  .productos_det5 p{
+    font-size: 16px;
+  }
+
+  .productos_det6{
+    padding-top: 88px;
+    padding-left: 17px;
+    padding-right: 0px;
+  }
+
+  .productos_det6 h1{
+    font-size: 28px;
+  }
+
+  .productos_det6 p{
+    font-size: 16px;
+  }
+
+  .productos_det6 h2{
+    font-size: 20px;
+  }
+
+  .detalle_panela{
+    margin-top: 7%;
+    padding-left: 22px;
+    padding-right: 8px;
+  }
+
+  .detalle_panela p{
+    font-size: 16px;
+  }
+
+  .detalle_panela h1{
+    font-size: 28px;
+  }
+
+  .detalle_panela2{
+    padding-left: 33px;
+    padding-right: 0px;
+  }
+
+  .detalle_panela2 h1{
+    font-size: 28px;
+  }
+
+  .detalle_panela2 p{
+    font-size: 16px;
+  }
+
+  .detalle_panela2 h2{
+    font-size: 20px;
+  }
+
+  #frase{
+    padding: 70px 0px;
+  }
+
+  #frase h1{
+    font-size: 28px;
+  }
+
+  #frase p{
+    font-size: 17px;
+  }
+
+  #presentaciones p{
+    font-size: 16px;
+  }
+
+  .volver{
+    padding: 76px 0px;
+  }
+
+  .volver a{
+    font-size: 21px;
+    padding: 14px 18px;
+  }
+
+  .fresco p{
+    font-size: 16px;
+  }
+
+  .productos_det{
+    padding-top: 86px;
+    padding-left: 21px;
+    padding-right: 0px;
+  }
+
+  .productos_det h1{
+    font-size: 25px;
+  }
+
+  .productos_det h2{
+    font-size: 20px;
+  }
+
+  .productos_det p{
+    font-size: 16px;
+  }
+
+  .productos_det2{
+    padding-top: 86px;
+    padding-left: 21px;
+    padding-right: 12px;
+  }
+
+  .productos_det2 h1{
+    font-size: 34px;
+  }
+
+  .productos_det2 h2{
+    font-size: 20px;
+  }
+
+  .productos_det2 p{
+    font-size: 16px;
+  }
+
+  .productos_det3{
+    padding-top: 86px;
+    padding-left: 21px;
+    padding-right: 13px;
+  }
+
+  .productos_det3 h1{
+    font-size: 34px;
+  }
+
+  .productos_det3 p{
+    font-size: 16px;
+  }
+
+  .productos_det3 h2{
+    font-size: 20px;
+  }
+
+  #nectares h1{
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #nectares p{
+    font-size: 16px;
+  }
+
+  #nectares .presentacion{
+    padding: 70px 0px;
+  }
+
+  #presentaciones2 h2{
+    font-size: 16px;
+  }
+
+  #tes p{
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  #tes h2{
+    font-size: 16px;
+  }
+
+  #maquilas{
+    padding: 80px 0px;
+  }
+
+  .servicios h1{
+    font-size: 70px;
+  }
+
+  .servicios p{
+    font-size: 22px;
+  }
+
+  .servicios ul li{
+    font-size: 16px;
+  }
+
+  .servicios2{
+    padding-left: 6%;
+  }
+
+  .servicios2 h1{
+    font-size: 70px;
+  }
+
+  .servicios2 p{
+    font-size: 22px;
+  }
+
+  .servicios2 ul li{
+    font-size: 16px;
+  }
+
+  #datos{
+    padding-right: 0px;
+  }
+
+  #datos p{
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  #datos h1{
+    font-size: 23px;
+  }
+
+  .datos h4{
+    font-size: 12px;
+    line-height: 21px;
+  }
+
+  #nosotros{
+    padding: 35px 0px;
+  }
+
+  .btn a{
+    font-size: 16px;
+  }
+
+  footer p{
+    font-size: 15px !important;
+    line-height: 24px !important;
+  }
+
+  
+}
+
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
+
+@media (max-width: 500px) and (min-width:450px){
+
+  #navbar a {
+    width: 100%;
+    padding: 7px 0px;
+    border: none;
+  }
+
+  #navbar li{
+    width: 100%;
+    margin:0px;
+  }
+
+  .navbar-header {
+    float: none;
+  }
+
+  .navbar-left,.navbar-right {
+    float: none !important;
+  }
+
+  .navbar-toggle {
+    display: block;
+    border: 1px !important;
+    margin-top: -68px;
+    margin-right: -1px;
+  }
+
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+    
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+
+  .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+    background-color: transparent;
+  }
+
+  .navbar-toggle .icon-bar{
+    width: 36px;
+  }
+
+  .navbar-nav {
+    float: none!important;
+    margin-top: 7.5px;
+    margin-left: 0;
+  }
+
+  .navbar-nav>li {
+    float: none;
+  }
+
+  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    border-color: #fdfdfd00;
+  }
+
+  .navbar-nav>li>a {
+    padding-top: 10px ;
+    padding-bottom: 10px;
+  }
+
+  .collapse.in{
+    display:block !important;
+  }
+
+  #banner{
+    margin-top: 60%;
+  }
+
+  .datos_header{
+    padding-top: 4px;
+  }
+
+  .datos_header h1{
+    font-size: 19px;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+  .datos_header p{
+    text-align: center;
+    line-height: 17px;
+    padding-bottom: 5px;
+  }
+
+  #nosotros h2{
+    font-size: 38px;
+  }
+
+  #nosotros h1{
+    font-size: 40px;
+    margin-top: -34px;
+  }
+
+  #nosotros p{
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  #h_procesos h1{
+    font-size: 58px;
+  }
+
+  #h_productos h1{
+    font-size: 38px;
+  }
+
+  #h_productos h2{
+    font-size: 38px;
+    padding-bottom: 20px;
+  }
+
+  .vita p{
+    font-size: 17px;
+  }
+
+  .vita h1{
+    font-size: 40px;
+    padding-bottom: 17px;
+  }
+
+  .texto-link2{
+    width: 100%;
+  }
+
+  .h_productos2 h1{
+    font-size: 40px;
+  }
+
+  .h_productos2 p{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .texto-link3{
+    width: 100%;
+  }
+
+  .texto-link4{
+    width: 100%;
+  }
+
+  #titulo{
+    margin-top: 60%;
+    padding-top: 87px;
+    padding-bottom: 32px;
+  }
+
+  #titulo h1{
+    font-size: 41px;
+  }
+
+  #empresa h1{
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  #empresa p{
+    font-size: 17px;
+    line-height: 23px;
+  }
+
+  .empresa_text{
+    padding: 82px 26px;
+  }
+
+  #valores h1{
+    font-size: 38px;
+  }
+
+  #valores{
+    margin-top: 46%;
+  }
+
+  #valores h2{
+    font-size: 36px;
+    margin-top: -6%;
+  }
+
+  #valores p{
+    padding: 47px 32px;
+  }
+
+  .politicas h1{
+    text-align: center;
+    font-size: 34px;
+    padding-bottom: 5px;
+  }
+
+  .politicas{
+    padding: 0px;
+  }
+
+  .politicas p{
+    text-align: center;
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  #productos h1{
+    font-size: 16px;
+    line-height: 25px !important;
+  }
+
+  #delicious h1{
+    font-size: 27px;
+  }
+
+  #delicious p{
+    font-size: 15px;
+    padding-bottom: 45px;
+  }
+
+  #detalle{
+    width: 100%;
+    padding-top: 0%;
+  }
+
+  .productos_det4{
+    padding-top: 74px;
+    padding-left: 17px;
+    padding-right: 0px;
+  }
+
+  .productos_det4 h1{
+    font-size: 35px;
+  }
+
+  .productos_det4 p{
+    font-size: 16px;
+  }
+
+  .productos_det5{
+    padding-top: 88px;
+    padding-left: 17px;
+    padding-right: 0px;
+  }
+
+  .productos_det5 h1{
+    font-size: 35px;
+  }
+
+  .productos_det5 p{
+    font-size: 16px;
+  }
+
+  .productos_det6{
+    padding-top: 88px;
+    padding-left: 17px;
+    padding-right: 0px;
+  }
+
+  .productos_det6 h1{
+    font-size: 28px;
+  }
+
+  .productos_det6 p{
+    font-size: 16px;
+  }
+
+  .detalle_panela{
+    margin-top: 7%;
+    padding-left: 22px;
+    padding-right: 0px;
+  }
+
+  .detalle_panela p{
+    font-size: 16px;
+  }
+
+  .detalle_panela h1{
+    font-size: 34px;
+  }
+
+  .detalle_panela2{
+    padding-left: 33px;
+    padding-right: 0px;
+  }
+
+  .detalle_panela2 h1{
+    font-size: 38px;
+  }
+
+  .detalle_panela2 p{
+    font-size: 16px;
+  }
+
+  #frase{
+    padding: 70px 0px;
+  }
+
+  #frase h1{
+    font-size: 34px;
+  }
+
+  #frase p{
+    font-size: 17px;
+  }
+
+  #presentaciones p{
+    font-size: 16px;
+  }
+
+  .volver{
+    padding: 76px 0px;
+  }
+
+  .volver a{
+    font-size: 21px;
+    padding: 14px 18px;
+  }
+
+  .fresco p{
+    font-size: 16px;
+  }
+
+  .productos_det{
+    padding-top: 86px;
+    padding-left: 21px;
+    padding-right: 0px;
+  }
+
+  .productos_det h1{
+    font-size: 29px;
+  }
+
+  .productos_det p{
+    font-size: 16px;
+  }
+
+  .productos_det2{
+    padding-top: 86px;
+    padding-left: 21px;
+    padding-right: 0px;
+  }
+
+  .productos_det2 h1{
+    font-size: 47px;
+  }
+
+  .productos_det2 p{
+    font-size: 16px;
+  }
+
+  .productos_det3{
+    padding-top: 86px;
+    padding-left: 21px;
+    padding-right: 0px;
+  }
+
+  .productos_det3 h1{
+    font-size: 47px;
+  }
+
+  .productos_det3 p{
+    font-size: 16px;
+  }
+
+  #nectares h1{
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #nectares p{
+    font-size: 16px;
+  }
+
+  #nectares .presentacion{
+    padding: 70px 0px;
+  }
+
+  #presentaciones2 h2{
+    font-size: 16px;
+  }
+
+  #tes p{
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  #tes h2{
+    font-size: 16px;
+  }
+
+  #maquilas{
+    padding: 80px 0px;
+  }
+
+  .servicios h1{
+    font-size: 70px;
+  }
+
+  .servicios p{
+    font-size: 22px;
+  }
+
+  .servicios ul li{
+    font-size: 16px;
+  }
+
+  .servicios2{
+    padding-left: 6%;
+  }
+
+  .servicios2 h1{
+    font-size: 70px;
+  }
+
+  .servicios2 p{
+    font-size: 22px;
+  }
+
+  .servicios2 ul li{
+    font-size: 16px;
+  }
+
+  #datos{
+    padding-right: 0px;
+  }
+
+  #datos p{
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .datos h4{
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .btn a{
+    font-size: 16px;
+  }
+
+}
+
+/*---------------------------------------------------------------------------------------------------------*/
+
+@media (max-width:550px) and (min-width:500px){
+
+  #navbar a {
+    width: 100%;
+    padding: 7px 0px;
+    border: none;
+  }
+
+  #navbar li{
+    width: 100%;
+    margin:0px;
+  }
+
+  .navbar-header {
+    float: none;
+  }
+
+  .navbar-left,.navbar-right {
+    float: none !important;
+  }
+
+  .navbar-toggle {
+    display: block;
+    border: 1px !important;
+    margin-top: -68px;
+    margin-right: -1px;
+  }
+
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+    
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+
+  .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+    background-color: transparent;
+  }
+
+  .navbar-toggle .icon-bar{
+    width: 36px;
+  }
+
+  .navbar-nav {
+    float: none!important;
+    margin-top: 7.5px;
+    margin-left: 0;
+  }
+
+  .navbar-nav>li {
+    float: none;
+  }
+
+  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    border-color: #fdfdfd00;
+  }
+
+  .navbar-nav>li>a {
+    padding-top: 10px ;
+    padding-bottom: 10px;
+  }
+
+  .collapse.in{
+    display:block !important;
+  }
+
+  #banner{
+    margin-top: 55%;
+  }
+
+  .datos_header{
+    padding-top: 4px;
+  }
+
+  .datos_header h1{
+    font-size: 19px;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+  .datos_header p{
+    text-align: center;
+    line-height: 17px;
+    padding-bottom: 5px;
+  }
+
+  #nosotros h2{
+    font-size: 38px;
+  }
+
+  #nosotros h1{
+    font-size: 40px;
+    margin-top: -34px;
+  }
+
+  #nosotros p{
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  #h_procesos h1{
+    font-size: 58px;
+  }
+
+  #h_productos h1{
+    font-size: 38px;
+  }
+
+  #h_productos h2{
+    font-size: 38px;
+    padding-bottom: 20px;
+  }
+
+  .vita p{
+    font-size: 17px;
+  }
+
+  .vita h1{
+    font-size: 40px;
+    padding-bottom: 17px;
+  }
+
+  .h_productos2 h1{
+    font-size: 40px;
+  }
+
+  .h_productos2 p{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .texto-link3{
+    width: 80%;
+  }
+
+  .texto-link4{
+    width: 80%;
+  }
+
+  #titulo{
+    margin-top: 55%;
+    padding-top: 87px;
+    padding-bottom: 32px;
+  }
+
+  #titulo h1{
+    font-size: 41px;
+  }
+
+  #empresa h1{
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  #empresa p{
+    font-size: 17px;
+    line-height: 23px;
+  }
+
+  .empresa_text{
+    padding: 82px 26px;
+  }
+
+  #valores h1{
+    font-size: 38px;
+  }
+
+  #valores{
+    margin-top: 46%;
+  }
+
+  #valores h2{
+    font-size: 36px;
+    margin-top: -6%;
+  }
+
+  #valores p{
+    padding: 47px 32px;
+  }
+
+  .politicas h1{
+    text-align: center;
+    font-size: 34px;
+    padding-bottom: 5px;
+    margin-top: 7%;
+  }
+
+  .politicas{
+    padding: 0px;
+  }
+
+  .politicas p{
+    text-align: center;
+    font-size: 17px;
+    padding-bottom: 42px;
+    line-height: 24px;
+  }
+
+  #productos h1{
+    font-size: 16px;
+    line-height: 25px !important;
+  }
+
+  #delicious h1{
+    font-size: 27px;
+  }
+
+  #delicious p{
+    font-size: 15px;
+    padding-bottom: 45px;
+  }
+
+  #detalle{
+    width: 100%;
+    padding-top: 0%;
+  }
+
+  .productos_det4{
+    padding-top: 74px;
+    padding-left: 17px;
+    padding-right: 15px;
+  }
+
+  .productos_det4 h1{
+    font-size: 35px;
+  }
+
+  .productos_det4 p{
+    font-size: 16px;
+  }
+
+  .productos_det5{
+    padding-top: 88px;
+    padding-left: 17px;
+    padding-right: 13px;
+  }
+
+  .productos_det5 h1{
+    font-size: 35px;
+  }
+
+  .productos_det5 p{
+    font-size: 16px;
+  }
+
+  .productos_det6{
+    padding-top: 88px;
+    padding-left: 17px;
+    padding-right: 0px;
+  }
+
+  .productos_det6 h1{
+    font-size: 28px;
+  }
+
+  .productos_det6 p{
+    font-size: 16px;
+  }
+
+  .detalle_panela{
+    margin-top: 7%;
+    padding-left: 22px;
+    padding-right: 23px;
+  }
+
+  .detalle_panela p{
+    font-size: 16px;
+  }
+
+  .detalle_panela h1{
+    font-size: 34px;
+  }
+
+  .detalle_panela2{
+    padding-left: 33px;
+    padding-right:14px;
+  }
+
+  .detalle_panela2 h1{
+    font-size: 38px;
+  }
+
+  .detalle_panela2 p{
+    font-size: 16px;
+  }
+
+  #frase{
+    padding: 70px 0px;
+  }
+
+  #frase h1{
+    font-size: 34px;
+  }
+
+  #frase p{
+    font-size: 17px;
+  }
+
+  #presentaciones p{
+    font-size: 16px;
+  }
+
+  .volver{
+    padding: 76px 0px;
+  }
+
+  .volver a{
+    font-size: 21px;
+    padding: 14px 18px;
+  }
+
+  .fresco p{
+    font-size: 16px;
+  }
+
+  .productos_det{
+    padding-top: 86px;
+    padding-left: 21px;
+    padding-right: 17px;
+  }
+
+  .productos_det h1{
+    font-size: 29px;
+  }
+
+  .productos_det p{
+    font-size: 16px;
+  }
+
+  .productos_det2{
+    padding-top: 86px;
+    padding-left: 21px;
+    padding-right:25px;
+  }
+
+  .productos_det2 h1{
+    font-size: 47px;
+  }
+
+  .productos_det2 p{
+    font-size: 16px;
+  }
+
+  .productos_det3{
+    padding-top: 86px;
+    padding-left: 21px;
+    padding-right: 11px;
+  }
+
+  .productos_det3 h1{
+    font-size: 47px;
+  }
+
+  .productos_det3 p{
+    font-size: 16px;
+  }
+
+  #nectares h1{
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #nectares p{
+    font-size: 16px;
+  }
+
+  #nectares .presentacion{
+    padding: 70px 0px;
+  }
+
+  #presentaciones2 h2{
+    font-size: 16px;
+  }
+
+  #tes p{
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  #tes h2{
+    font-size: 16px;
+  }
+
+  #maquilas{
+    padding: 80px 0px;
+  }
+
+  .servicios h1{
+    font-size: 70px;
+  }
+
+  .servicios p{
+    font-size: 22px;
+  }
+
+  .servicios ul li{
+    font-size: 16px;
+  }
+
+  .servicios2{
+    padding-left: 6%;
+    padding-bottom: 20px;
+  }
+
+  .servicios2 h1{
+    font-size: 70px;
+  }
+
+  .servicios2 p{
+    font-size: 22px;
+  }
+
+  .servicios2 ul li{
+    font-size: 16px;
+  }
+
+  #datos{
+    padding-right:18px;
+  }
+
+  #datos p{
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .datos h4{
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .btn a{
+    font-size: 16px;
+  }
+
+}
+
+
+/*-------------------------------------------------------------------------*/
+
+
+@media (max-width: 600px) and (min-width:550px){
+
+  #navbar a {
+    width: 100%;
+    padding: 7px 0px;
+    border: none;
+  }
+
+  #navbar li{
+    width: 100%;
+    margin:0px;
+  }
+
+  .navbar-header {
+    float: none;
+  }
+
+  .navbar-left,.navbar-right {
+    float: none !important;
+  }
+
+  .navbar-toggle {
+    display: block;
+    border: 1px !important;
+    margin-top: -68px;
+    margin-right: -1px;
+  }
+
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+    
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+
+  .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+    background-color: transparent;
+  }
+
+  .navbar-toggle .icon-bar{
+    width: 36px;
+  }
+
+  .navbar-nav {
+    float: none!important;
+    margin-top: 7.5px;
+    margin-left: 0;
+  }
+
+  .navbar-nav>li {
+    float: none;
+  }
+
+  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    border-color: #fdfdfd00;
+  }
+
+  .navbar-nav>li>a {
+    padding-top: 10px ;
+    padding-bottom: 10px;
+  }
+
+  .collapse.in{
+    display:block !important;
+  }
+
+  #banner{
+    margin-top: 50%;
+  }
+
+  .datos_header{
+    padding-top: 4px;
+  }
+
+  .datos_header h1{
+    font-size: 19px;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+  .datos_header p{
+    text-align: center;
+    line-height: 17px;
+    padding-bottom: 5px;
+  }
+
+  #nosotros h2{
+    font-size: 38px;
+  }
+
+  #nosotros h1{
+    font-size: 40px;
+    margin-top: -34px;
+  }
+
+  #nosotros p{
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  #h_procesos h1{
+    font-size: 58px;
+  }
+
+  #h_productos h1{
+    font-size: 38px;
+  }
+
+  #h_productos h2{
+    font-size: 38px;
+    padding-bottom: 20px;
+  }
+
+  .vita p{
+    font-size: 17px;
+  }
+
+  .vita h1{
+    font-size: 40px;
+    padding-bottom: 17px;
+  }
+
+  .h_productos2 h1{
+    font-size: 40px;
+  }
+
+  .h_productos2 p{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .texto-link3{
+    width: 80%;
+  }
+
+  .texto-link4{
+    width: 80%;
+  }
+
+  #titulo{
+    margin-top: 50%;
+    padding-top: 87px;
+    padding-bottom: 32px;
+  }
+
+  #titulo h1{
+    font-size: 41px;
+  }
+
+  #empresa h1{
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  #empresa p{
+    font-size: 17px;
+    line-height: 23px;
+  }
+
+  .empresa_text{
+    padding: 82px 26px;
+  }
+
+  #valores h1{
+    font-size: 48px;
+  }
+
+  #valores{
+    margin-top: 46%;
+  }
+
+  #valores h2{
+    font-size: 41px;
+    margin-top: -7%;
+  }
+
+  #valores p{
+    padding: 47px 32px;
+  }
+
+  .politicas h1{
+    text-align: center;
+    font-size: 37px;
+    padding-bottom: 5px;
+    margin-top: 7%;
+  }
+
+  .politicas{
+    padding: 0px;
+  }
+
+  .politicas p{
+    text-align: center;
+    padding-bottom: 42px;
+    line-height: 24px;
+    font-size: 17px;
+  }
+
+  #productos h1{
+    font-size: 17px;
+    line-height: 25px !important;
+  }
+
+  #delicious h1{
+    font-size: 34px;
+  }
+
+  #delicious p{
+    font-size: 17px;
+    padding-bottom: 45px;
+  }
+
+  #detalle{
+    width: 100%;
+    padding-top: 0%;
+  }
+
+  .productos_det4{
+    padding-top: 74px;
+    padding-left: 17px;
+    padding-right: 15px;
+  }
+
+  .productos_det4 h1{
+    font-size: 42px;
+  }
+
+  .productos_det4 p{
+    font-size: 18px;
+  }
+
+  .productos_det5{
+    padding-top: 88px;
+    padding-left: 17px;
+    padding-right: 13px;
+  }
+
+  .productos_det5 h1{
+    font-size:42px;
+  }
+
+  .productos_det5 p{
+    font-size: 18px;
+  }
+
+  .productos_det6{
+    padding-top: 88px;
+    padding-left: 17px;
+    padding-right: 0px;
+  }
+
+  .productos_det6 h1{
+    font-size: 35px;
+  }
+
+  .productos_det6 p{
+    font-size: 18px;
+  }
+
+  .detalle_panela{
+    margin-top: 7%;
+    padding-left: 22px;
+    padding-right: 23px;
+  }
+
+  .detalle_panela p{
+    font-size: 18px;
+  }
+
+  .detalle_panela h1{
+    font-size: 42px;
+  }
+
+  .detalle_panela2{
+    padding-left: 33px;
+    padding-right:14px;
+  }
+
+  .detalle_panela2 h1{
+    font-size: 38px;
+  }
+
+  .detalle_panela2 p{
+    font-size: 16px;
+  }
+
+  #frase{
+    padding: 70px 0px;
+  }
+
+  #frase h1{
+    font-size: 34px;
+  }
+
+  #frase p{
+    font-size: 17px;
+  }
+
+  #presentaciones p{
+    font-size: 16px;
+  }
+
+  .volver{
+    padding: 76px 0px;
+  }
+
+  .volver a{
+    font-size: 21px;
+    padding: 14px 18px;
+  }
+
+  .fresco p{
+    font-size: 16px;
+  }
+
+  .productos_det{
+    padding-top: 86px;
+    padding-left: 21px;
+    padding-right: 17px;
+  }
+
+  .productos_det h1{
+    font-size: 29px;
+  }
+
+  .productos_det p{
+    font-size: 16px;
+  }
+
+  .productos_det2{
+    padding-top: 86px;
+    padding-left: 21px;
+    padding-right:25px;
+  }
+
+  .productos_det2 h1{
+    font-size: 47px;
+  }
+
+  .productos_det2 p{
+    font-size: 16px;
+  }
+
+  .productos_det3{
+    padding-top: 86px;
+    padding-left: 21px;
+    padding-right: 11px;
+  }
+
+  .productos_det3 h1{
+    font-size: 47px;
+  }
+
+  .productos_det3 p{
+    font-size: 16px;
+  }
+
+  #nectares h1{
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #nectares p{
+    font-size: 16px;
+  }
+
+  #nectares .presentacion{
+    padding: 70px 0px;
+  }
+
+  #presentaciones2 h2{
+    font-size: 16px;
+  }
+
+  #tes p{
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  #tes h2{
+    font-size: 16px;
+  }
+
+  #maquilas{
+    padding: 80px 0px;
+  }
+
+  .servicios h1{
+    font-size: 70px;
+  }
+
+  .servicios p{
+    font-size: 22px;
+  }
+
+  .servicios ul li{
+    font-size: 16px;
+  }
+
+  .servicios2{
+    padding-left: 6%;
+    padding-bottom: 20px;
+  }
+
+  .servicios2 h1{
+    font-size: 70px;
+  }
+
+  .servicios2 p{
+    font-size: 22px;
+  }
+
+  .servicios2 ul li{
+    font-size: 16px;
+  }
+
+  #datos{
+    padding-right:18px;
+  }
+
+  #datos p{
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .datos h4{
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .btn a{
+    font-size: 16px;
+  }
+  
+}
+
+
+
+/*------------------------------------------------------------------------*/
+
+
+
+@media (max-width: 650px) and (min-width:600px){
+
+  #navbar a {
+    width: 100%;
+    padding: 7px 0px;
+    border: none;
+  }
+
+  #navbar li{
+    width: 100%;
+    margin:0px;
+  }
+
+  .navbar-header {
+    float: none;
+  }
+
+  .navbar-left,.navbar-right {
+    float: none !important;
+  }
+
+  .navbar-toggle {
+    display: block;
+    border: 1px !important;
+    margin-top: -68px;
+    margin-right: -1px;
+  }
+
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+    
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+
+  .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+    background-color: transparent;
+  }
+
+  .navbar-toggle .icon-bar{
+    width: 36px;
+  }
+
+  .navbar-nav {
+    float: none!important;
+    margin-top: 7.5px;
+    margin-left: 0;
+  }
+
+  .navbar-nav>li {
+    float: none;
+  }
+
+  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    border-color: #fdfdfd00;
+  }
+
+  .navbar-nav>li>a {
+    padding-top: 10px ;
+    padding-bottom: 10px;
+  }
+
+  .collapse.in{
+    display:block !important;
+  }
+
+  #banner{
+    margin-top: 46%;
+  }
+
+  .datos_header{
+    padding-top: 4px;
+  }
+
+  .datos_header h1{
+    font-size: 19px;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+  .datos_header p{
+    text-align: center;
+    line-height: 17px;
+    padding-bottom: 5px;
+  }
+
+  #nosotros h2{
+    font-size: 50px;
+  }
+
+  #nosotros h1{
+    margin-top: -43px;
+  }
+
+  #nosotros p{
+    font-size: 17px;
+    line-height: 22px;
+  }
+
+  #h_procesos h1{
+    font-size: 58px;
+  }
+
+  #h_productos h1{
+    font-size: 40px;
+  }
+
+  #h_productos h2{
+    font-size: 40px;
+    margin-top: -34px;
+    padding-bottom: 0px;
+  }
+
+  .vita p{
+    font-size: 17px;
+  }
+
+  .vita h1{
+    font-size: 40px;
+    padding-bottom: 17px;
+  }
+
+  .h_productos2 h1{
+    font-size: 40px;
+  }
+
+  .h_productos2 p{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .texto-link3{
+    width: 80%;
+  }
+
+  .texto-link4{
+    width: 80%;
+  }
+
+  #titulo{
+    margin-top: 46%;
+    padding-top: 87px;
+    padding-bottom: 32px;
+  }
+
+  #titulo h1{
+    font-size: 41px;
+  }
+
+  #empresa h1{
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  #empresa p{
+    font-size: 17px;
+    line-height: 23px;
+  }
+
+  .empresa_text{
+    padding: 82px 26px;
+  }
+
+  #valores h1{
+    font-size: 48px;
+  }
+
+  #valores{
+    margin-top: 46%;
+  }
+
+  #valores h2{
+    font-size: 41px;
+    margin-top: -7%;
+  }
+
+  #valores p{
+    padding: 47px 32px;
+  }
+
+  .politicas h1{
+    text-align: center;
+    font-size: 37px;
+    padding-bottom: 5px;
+    margin-top: 7%;
+  }
+
+  .politicas{
+    padding: 0px;
+  }
+
+  .politicas p{
+    text-align: center;
+    padding-bottom: 42px;
+    line-height: 24px;
+    font-size: 17px;
+  }
+
+  #productos h1{
+    font-size: 17px;
+    line-height: 25px !important;
+  }
+
+  #delicious h1{
+    font-size: 34px;
+  }
+
+  #delicious p{
+    font-size: 17px;
+    padding-bottom: 45px;
+  }
+
+  #detalle{
+    width: 100%;
+    padding-top: 0%;
+  }
+
+  .productos_det4{
+    padding-top: 74px;
+    padding-left: 17px;
+    padding-right: 15px;
+  }
+
+  .productos_det4 h1{
+    font-size: 42px;
+  }
+
+  .productos_det4 p{
+    font-size: 18px;
+  }
+
+  .productos_det5{
+    padding-top: 88px;
+    padding-left: 17px;
+    padding-right: 13px;
+  }
+
+  .productos_det5 h1{
+    font-size:42px;
+  }
+
+  .productos_det5 p{
+    font-size: 18px;
+  }
+
+  .productos_det6{
+    padding-top: 88px;
+    padding-left: 17px;
+    padding-right: 0px;
+  }
+
+  .productos_det6 h1{
+    font-size: 35px;
+  }
+
+  .productos_det6 p{
+    font-size: 18px;
+  }
+
+  .detalle_panela{
+    margin-top: 7%;
+    padding-left: 22px;
+    padding-right: 23px;
+  }
+
+  .detalle_panela p{
+    font-size: 18px;
+  }
+
+  .detalle_panela h1{
+    font-size: 42px;
+  }
+
+  .detalle_panela2{
+    padding-left: 33px;
+    padding-right:14px;
+  }
+
+  .detalle_panela2 h1{
+    font-size: 38px;
+  }
+
+  .detalle_panela2 p{
+    font-size: 16px;
+  }
+
+  #frase{
+    padding: 70px 0px;
+  }
+
+  #frase h1{
+    font-size: 34px;
+  }
+
+  #frase p{
+    font-size: 17px;
+  }
+
+  #presentaciones p{
+    font-size: 16px;
+  }
+
+  .volver{
+    padding: 76px 0px;
+  }
+
+  .volver a{
+    font-size: 21px;
+    padding: 14px 18px;
+  }
+
+  .fresco p{
+    font-size: 16px;
+  }
+
+  .productos_det{
+    padding-top: 86px;
+    padding-left: 21px;
+    padding-right: 17px;
+  }
+
+  .productos_det h1{
+    font-size: 29px;
+  }
+
+  .productos_det p{
+    font-size: 16px;
+  }
+
+  .productos_det2{
+    padding-top: 86px;
+    padding-left: 21px;
+    padding-right:25px;
+  }
+
+  .productos_det2 h1{
+    font-size: 47px;
+  }
+
+  .productos_det2 p{
+    font-size: 16px;
+  }
+
+  .productos_det3{
+    padding-top: 86px;
+    padding-left: 21px;
+    padding-right: 11px;
+  }
+
+  .productos_det3 h1{
+    font-size: 47px;
+  }
+
+  .productos_det3 p{
+    font-size: 16px;
+  }
+
+  #nectares h1{
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #nectares p{
+    font-size: 16px;
+  }
+
+  #nectares .presentacion{
+    padding: 70px 0px;
+  }
+
+  #presentaciones2 h2{
+    font-size: 16px;
+  }
+
+  #tes p{
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  #tes h2{
+    font-size: 16px;
+  }
+
+  #maquilas{
+    padding: 80px 0px;
+  }
+
+  .servicios h1{
+    font-size: 70px;
+  }
+
+  .servicios p{
+    font-size: 22px;
+  }
+
+  .servicios ul li{
+    font-size: 16px;
+  }
+
+  .servicios2{
+    padding-left: 6%;
+    padding-bottom: 20px;
+  }
+
+  .servicios2 h1{
+    font-size: 70px;
+  }
+
+  .servicios2 p{
+    font-size: 22px;
+  }
+
+  .servicios2 ul li{
+    font-size: 16px;
+  }
+
+  #datos{
+    padding-right:18px;
+  }
+
+  #datos p{
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .datos h4{
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .btn a{
+    font-size: 19px;
+  }
+  
+}
+
+/*-------------------------------------------------------------------------*/
+
+
+@media (max-width: 700px) and (min-width:650px){
+
+  #navbar a {
+    width: 100%;
+    padding: 7px 0px;
+    border: none;
+  }
+
+  #navbar li{
+    width: 100%;
+    margin:0px;
+  }
+
+  .navbar-header {
+    float: none;
+  }
+
+  .navbar-left,.navbar-right {
+    float: none !important;
+  }
+
+  .navbar-toggle {
+    display: block;
+    border: 1px !important;
+    margin-top: -68px;
+    margin-right: -1px;
+  }
+
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+    
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+
+  .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+    background-color: transparent;
+  }
+
+  .navbar-toggle .icon-bar{
+    width: 36px;
+  }
+
+  .navbar-nav {
+    float: none!important;
+    margin-top: 7.5px;
+    margin-left: 0;
+  }
+
+  .navbar-nav>li {
+    float: none;
+  }
+
+  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    border-color: #fdfdfd00;
+  }
+
+  .navbar-nav>li>a {
+    padding-top: 10px ;
+    padding-bottom: 10px;
+  }
+
+  .collapse.in{
+    display:block !important;
+  }
+
+  #banner{
+    margin-top: 43%;
+  }
+
+  .datos_header{
+    padding-top: 4px;
+  }
+
+  .datos_header h1{
+    font-size: 19px;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+  .datos_header p{
+    text-align: center;
+    line-height: 17px;
+    padding-bottom: 5px;
+  }
+
+  #nosotros h2{
+    font-size: 50px;
+  }
+
+  #nosotros h1{
+    margin-top: -43px;
+  }
+
+  #nosotros p{
+    font-size: 17px;
+    line-height: 22px;
+  }
+
+  #h_procesos h1{
+    font-size: 58px;
+  }
+
+  #h_productos h1{
+    font-size: 40px;
+  }
+
+  #h_productos h2{
+    font-size: 40px;
+    margin-top: -34px;
+    padding-bottom: 0px;
+  }
+
+  .vita p{
+    font-size: 17px;
+  }
+
+  .vita h1{
+    font-size: 40px;
+    padding-bottom: 17px;
+  }
+
+  .h_productos2 h1{
+    font-size: 40px;
+  }
+
+  .h_productos2 p{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .texto-link3{
+    width: 80%;
+  }
+
+  .texto-link4{
+    width: 80%;
+  }
+
+  #titulo{
+    margin-top: 43%;
+    padding-top: 87px;
+    padding-bottom: 32px;
+  }
+
+  #titulo h1{
+    font-size: 41px;
+  }
+
+  #empresa h1{
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  #empresa p{
+    font-size: 17px;
+    line-height: 23px;
+  }
+
+  .empresa_text{
+    padding: 82px 26px;
+  }
+
+  #valores h1{
+    font-size: 48px;
+  }
+
+  #valores{
+    margin-top: 46%;
+  }
+
+  #valores h2{
+    font-size: 41px;
+    margin-top: -7%;
+  }
+
+  #valores p{
+    padding: 47px 32px;
+  }
+
+  .politicas h1{
+    text-align: center;
+    font-size: 37px;
+    padding-bottom: 5px;
+    margin-top: 7%;
+  }
+
+  .politicas{
+    padding: 0px;
+  }
+
+  .politicas p{
+    text-align: center;
+    padding-bottom: 42px;
+    line-height: 24px;
+    font-size: 17px;
+  }
+
+  #productos h1{
+    font-size: 17px;
+    line-height: 25px !important;
+  }
+
+  #delicious h1{
+    font-size: 37px;
+  }
+
+  #delicious p{
+    font-size: 18px;
+    padding-bottom: 45px;
+  }
+
+  #detalle{
+    width: 100%;
+    padding-top: 0%;
+  }
+
+  .productos_det4{
+    padding-top: 74px;
+    padding-left: 17px;
+    padding-right: 15px;
+  }
+
+  .productos_det4 h1{
+    font-size: 42px;
+  }
+
+  .productos_det4 p{
+    font-size: 17px;
+  }
+
+  .productos_det5{
+    padding-top: 88px;
+    padding-left: 17px;
+    padding-right: 13px;
+  }
+
+  .productos_det5 h1{
+    font-size:42px;
+  }
+
+  .productos_det5 p{
+    font-size: 17px;
+  }
+
+  .productos_det6{
+    padding-top: 88px;
+    padding-left: 17px;
+    padding-right: 0px;
+  }
+
+  .productos_det6 h1{
+    font-size: 35px;
+  }
+
+  .productos_det6 p{
+    font-size: 17px;
+  }
+
+  .detalle_panela{
+    margin-top: 7%;
+    padding-left: 22px;
+    padding-right: 23px;
+  }
+
+  .detalle_panela p{
+    font-size: 17px;
+  }
+
+  .detalle_panela h1{
+    font-size: 42px;
+  }
+
+  .detalle_panela2{
+    padding-left: 33px;
+    padding-right:14px;
+  }
+
+  .detalle_panela2 h1{
+    font-size: 38px;
+  }
+
+  .detalle_panela2 p{
+    font-size: 16px;
+  }
+
+  #frase{
+    padding: 70px 0px;
+  }
+
+  #frase h1{
+    font-size: 34px;
+  }
+
+  #frase p{
+    font-size: 17px;
+  }
+
+  #presentaciones p{
+    font-size: 17px;
+  }
+
+  .volver{
+    padding: 76px 0px;
+  }
+
+  .volver a{
+    font-size: 21px;
+    padding: 14px 18px;
+  }
+
+  .fresco p{
+    font-size: 16px;
+  }
+
+  .productos_det{
+    padding-top: 86px;
+    padding-left: 21px;
+    padding-right: 17px;
+  }
+
+  .productos_det h1{
+    font-size: 47px;
+  }
+
+  .productos_det p{
+    font-size: 17px;
+  }
+
+  .productos_det2{
+    padding-top: 86px;
+    padding-left: 21px;
+    padding-right:25px;
+  }
+
+  .productos_det2 h1{
+    font-size: 47px;
+  }
+
+  .productos_det2 p{
+    font-size: 17px;
+  }
+
+  .productos_det3{
+    padding-top: 86px;
+    padding-left: 21px;
+    padding-right: 11px;
+  }
+
+  .productos_det3 h1{
+    font-size: 47px;
+  }
+
+  .productos_det3 p{
+    font-size: 17px;
+  }
+
+  #nectares h1{
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #nectares p{
+    font-size: 16px;
+  }
+
+  #nectares .presentacion{
+    padding: 70px 0px;
+  }
+
+  #presentaciones2 h2{
+    font-size: 16px;
+  }
+
+  #tes p{
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  #tes h2{
+    font-size: 16px;
+  }
+
+  #maquilas{
+    padding: 80px 0px;
+  }
+
+  .servicios h1{
+    font-size: 70px;
+  }
+
+  .servicios p{
+    font-size: 22px;
+  }
+
+  .servicios ul li{
+    font-size: 16px;
+  }
+
+  .servicios2{
+    padding-left: 6%;
+    padding-bottom: 20px;
+  }
+
+  .servicios2 h1{
+    font-size: 70px;
+  }
+
+  .servicios2 p{
+    font-size: 22px;
+  }
+
+  .servicios2 ul li{
+    font-size: 16px;
+  }
+
+  #datos{
+    padding-right:18px;
+  }
+
+  #datos p{
+    font-size: 18px;
+  }
+
+  .datos h4{
+    font-size: 19px;
+    line-height: 25px;
+  }
+
+}
+
+
+/*-------------------------------------------------------------------------*/
+
+
+@media (max-width:750px) and (min-width:700px){
+
+  #navbar a {
+    width: 100%;
+    padding: 7px 0px;
+    border: none;
+  }
+
+  #navbar li{
+    width: 100%;
+    margin:0px;
+  }
+
+  .navbar-header {
+    float: none;
+  }
+
+  .navbar-left,.navbar-right {
+    float: none !important;
+  }
+
+  .navbar-toggle {
+    display: block;
+    border: 1px !important;
+    margin-top: -68px;
+    margin-right: -1px;
+  }
+
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+    
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+
+  .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+    background-color: transparent;
+  }
+
+  .navbar-toggle .icon-bar{
+    width: 36px;
+  }
+
+  .navbar-nav {
+    float: none!important;
+    margin-top: 7.5px;
+    margin-left: 0;
+  }
+
+  .navbar-nav>li {
+    float: none;
+  }
+
+  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    border-color: #fdfdfd00;
+  }
+
+  .navbar-nav>li>a {
+    padding-top: 10px ;
+    padding-bottom: 10px;
+  }
+
+  .collapse.in{
+    display:block !important;
+  }
+
+  #banner{
+    margin-top: 40%;
+  }
+
+  .datos_header{
+    padding-top: 4px;
+  }
+
+  .datos_header h1{
+    font-size: 19px;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+  .datos_header p{
+    text-align: center;
+    line-height: 17px;
+    padding-bottom: 5px;
+  }
+
+  #nosotros h2{
+    font-size: 50px;
+  }
+
+  #nosotros h1{
+    margin-top: -43px;
+  }
+
+  #nosotros p{
+    font-size: 17px;
+    line-height: 22px;
+  }
+
+  #h_procesos h1{
+    font-size: 58px;
+  }
+
+  #h_productos h1{
+    font-size: 40px;
+  }
+
+  #h_productos h2{
+    font-size: 40px;
+    margin-top: -34px;
+    padding-bottom: 0px;
+  }
+
+  .vita p{
+    font-size: 17px;
+  }
+
+  .vita h1{
+    font-size: 40px;
+    padding-bottom: 17px;
+  }
+
+  .h_productos2 h1{
+    font-size: 40px;
+  }
+
+  .h_productos2 p{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .texto-link3{
+    width: 80%;
+  }
+
+  .texto-link4{
+    width: 80%;
+  }
+
+  #titulo{
+    margin-top: 40%;
+    padding-top: 87px;
+    padding-bottom: 32px;
+  }
+
+  #titulo h1{
+    font-size: 41px;
+  }
+
+  #empresa h1{
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  #empresa p{
+    font-size: 17px;
+    line-height: 23px;
+  }
+
+  .empresa_text{
+    padding: 82px 26px;
+  }
+
+  #valores h1{
+    font-size: 48px;
+  }
+
+  #valores{
+    margin-top: 46%;
+  }
+
+  #valores h2{
+    font-size: 41px;
+    margin-top: -7%;
+  }
+
+  #valores p{
+    padding: 47px 32px;
+  }
+
+  .politicas h1{
+    text-align: center;
+    font-size: 37px;
+    padding-bottom: 5px;
+    margin-top: 7%;
+  }
+
+  .politicas{
+    padding: 0px;
+  }
+
+  .politicas p{
+    text-align: center;
+    padding-bottom: 42px;
+    line-height: 24px;
+    font-size: 17px;
+  }
+
+  #productos h1{
+    font-size: 18px;
+    line-height: 25px !important;
+  }
+
+  #delicious h1{
+    font-size: 37px;
+  }
+
+  #delicious p{
+    font-size: 18px;
+    padding-bottom: 45px;
+  }
+
+  #detalle{
+    width: 100%;
+    padding-top: 0%;
+  }
+
+  .productos_det4{
+    padding-top: 74px;
+    padding-left: 17px;
+    padding-right: 15px;
+  }
+
+  .productos_det4 h1{
+    font-size: 42px;
+  }
+
+  .productos_det4 p{
+    font-size: 17px;
+  }
+
+  .productos_det5{
+    padding-top: 88px;
+    padding-left: 17px;
+    padding-right: 13px;
+  }
+
+  .productos_det5 h1{
+    font-size:42px;
+  }
+
+  .productos_det5 p{
+    font-size: 17px;
+  }
+
+  .productos_det6{
+    padding-top: 88px;
+    padding-left: 17px;
+    padding-right: 0px;
+  }
+
+  .productos_det6 h1{
+    font-size: 35px;
+  }
+
+  .productos_det6 p{
+    font-size: 17px;
+  }
+
+  .detalle_panela{
+    margin-top: 7%;
+    padding-left: 22px;
+    padding-right: 23px;
+  }
+
+  .detalle_panela p{
+    font-size: 17px;
+  }
+
+  .detalle_panela h1{
+    font-size: 42px;
+  }
+
+  .detalle_panela2{
+    padding-left: 33px;
+    padding-right:14px;
+  }
+
+  .detalle_panela2 h1{
+    font-size: 38px;
+  }
+
+  .detalle_panela2 p{
+    font-size: 16px;
+  }
+
+  #frase{
+    padding: 70px 0px;
+  }
+
+  #frase h1{
+    font-size: 34px;
+  }
+
+  #frase p{
+    font-size: 17px;
+  }
+
+  #presentaciones p{
+    font-size: 17px;
+  }
+
+  .volver{
+    padding: 76px 0px;
+  }
+
+  .volver a{
+    font-size: 21px;
+    padding: 14px 18px;
+  }
+
+  .fresco p{
+    font-size: 16px;
+  }
+
+  .productos_det{
+    padding-top: 86px;
+    padding-left: 21px;
+    padding-right: 17px;
+  }
+
+  .productos_det h1{
+    font-size: 47px;
+  }
+
+  .productos_det p{
+    font-size: 17px;
+  }
+
+  .productos_det2{
+    padding-top: 86px;
+    padding-left: 21px;
+    padding-right:25px;
+  }
+
+  .productos_det2 h1{
+    font-size: 47px;
+  }
+
+  .productos_det2 p{
+    font-size: 17px;
+  }
+
+  .productos_det3{
+    padding-top: 86px;
+    padding-left: 21px;
+    padding-right: 11px;
+  }
+
+  .productos_det3 h1{
+    font-size: 47px;
+  }
+
+  .productos_det3 p{
+    font-size: 17px;
+  }
+
+  #nectares h1{
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #nectares p{
+    font-size: 16px;
+  }
+
+  #nectares .presentacion{
+    padding: 70px 0px;
+  }
+
+  #presentaciones2 h2{
+    font-size: 16px;
+  }
+
+  #tes p{
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  #tes h2{
+    font-size: 16px;
+  }
+
+  #maquilas{
+    padding: 80px 0px;
+  }
+
+  .servicios h1{
+    font-size: 70px;
+  }
+
+  .servicios p{
+    font-size: 22px;
+  }
+
+  .servicios ul li{
+    font-size: 16px;
+  }
+
+  .servicios2{
+    padding-left: 6%;
+    padding-bottom: 20px;
+  }
+
+  .servicios2 h1{
+    font-size: 70px;
+  }
+
+  .servicios2 p{
+    font-size: 22px;
+  }
+
+  .servicios2 ul li{
+    font-size: 16px;
+  }
+
+  #datos{
+    padding-right:18px;
+  }
+
+  #datos p{
+    font-size: 18px;
+  }
+
+  .datos h4{
+    font-size: 19px;
+    line-height: 25px;
+  }
+ 
+}
+
+
+/*--------------------------------------------------------------------------*/
+
+
+@media (max-width:767px) and (min-width:750px){
+
+  #navbar a {
+    width: 100%;
+    padding: 7px 0px;
+    border: none;
+  }
+
+  #navbar li{
+    width: 100%;
+    margin:0px;
+  }
+
+  .navbar-header {
+    float: none;
+  }
+
+  .navbar-left,.navbar-right {
+    float: none !important;
+  }
+
+  .navbar-toggle {
+    display: block;
+    border: 1px !important;
+    margin-top: -68px;
+    margin-right: -1px;
+  }
+
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+  }
+
+  .navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+  }
+    
+  .navbar-collapse.collapse {
+    display: none!important;
+  }
+
+  .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+    background-color: transparent;
+  }
+
+  .navbar-toggle .icon-bar{
+    width: 36px;
+  }
+
+  .navbar-nav {
+    float: none!important;
+    margin-top: 7.5px;
+    margin-left: 0;
+  }
+
+  .navbar-nav>li {
+    float: none;
+  }
+
+  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+    border-color: #fdfdfd00;
+  }
+
+  .navbar-nav>li>a {
+    padding-top: 10px ;
+    padding-bottom: 10px;
+  }
+
+  .collapse.in{
+    display:block !important;
+  }
+
+  #banner{
+    margin-top: 40%;
+  }
+
+  .datos_header{
+    padding-top: 4px;
+  }
+
+  .datos_header h1{
+    font-size: 19px;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+  .datos_header p{
+    text-align: center;
+    line-height: 17px;
+    padding-bottom: 5px;
+  }
+
+  #nosotros h2{
+    font-size: 50px;
+  }
+
+  #nosotros h1{
+    margin-top: -43px;
+  }
+
+  #nosotros p{
+    font-size: 17px;
+    line-height: 22px;
+  }
+
+  #h_procesos h1{
+    font-size: 58px;
+  }
+
+  #h_productos h1{
+    font-size: 46px;
+  }
+
+  #h_productos h2{
+    margin-top: -43px;
+    padding-bottom: 0px;
+  }
+
+  .vita p{
+    font-size: 17px;
+  }
+
+  .vita h1{
+    font-size: 40px;
+    padding-bottom: 17px;
+  }
+
+  .h_productos2 h1{
+    font-size: 40px;
+  }
+
+  .h_productos2 p{
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .texto-link3{
+    width: 80%;
+  }
+
+  .texto-link4{
+    width: 80%;
+  }
+
+  #titulo{
+    margin-top: 39%;
+    padding-top: 87px;
+    padding-bottom: 32px;
+  }
+
+  #titulo h1{
+    font-size: 41px;
+  }
+
+  #empresa h1{
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  #empresa p{
+    font-size: 17px;
+    line-height: 23px;
+  }
+
+  .empresa_text{
+    padding: 82px 26px;
+  }
+
+  #valores h1{
+    font-size: 60px;
+  }
+
+  #valores{
+    margin-top: 46%;
+  }
+
+  #valores h2{
+    margin-top: -7%;
+  }
+
+  #valores p{
+    padding: 47px 32px;
+  }
+
+  .politicas h1{
+    text-align: center;
+    font-size: 37px;
+    padding-bottom: 5px;
+    margin-top: 7%;
+  }
+
+  .politicas{
+    padding: 0px;
+  }
+
+  .politicas p{
+    text-align: center;
+    padding-bottom: 42px;
+    line-height: 24px;
+    font-size: 17px;
+  }
+
+  #productos h1{
+    font-size: 18px;
+    line-height: 25px !important;
+  }
+
+  #delicious h1{
+    font-size: 37px;
+  }
+
+  #delicious p{
+    font-size: 18px;
+    padding-bottom: 45px;
+  }
+
+  #detalle{
+    width: 100%;
+    padding-top: 0%;
+  }
+
+  .productos_det4{
+    padding-top: 74px;
+    padding-left: 17px;
+    padding-right: 15px;
+  }
+
+  .productos_det4 h1{
+    font-size: 42px;
+  }
+
+  .productos_det4 p{
+    font-size: 17px;
+  }
+
+  .productos_det5{
+    padding-top: 88px;
+    padding-left: 17px;
+    padding-right: 13px;
+  }
+
+  .productos_det5 h1{
+    font-size:42px;
+  }
+
+  .productos_det5 p{
+    font-size: 17px;
+  }
+
+  .productos_det6{
+    padding-top: 88px;
+    padding-left: 17px;
+    padding-right: 0px;
+  }
+
+  .productos_det6 h1{
+    font-size: 35px;
+  }
+
+  .productos_det6 p{
+    font-size: 17px;
+  }
+
+  .detalle_panela{
+    margin-top: 7%;
+    padding-left: 22px;
+    padding-right: 23px;
+  }
+
+  .detalle_panela p{
+    font-size: 17px;
+  }
+
+  .detalle_panela h1{
+    font-size: 42px;
+  }
+
+  .detalle_panela2{
+    padding-left: 33px;
+    padding-right:14px;
+  }
+
+  .detalle_panela2 h1{
+    font-size: 38px;
+  }
+
+  .detalle_panela2 p{
+    font-size: 16px;
+  }
+
+  #frase{
+    padding: 70px 0px;
+  }
+
+  #frase h1{
+    font-size: 34px;
+  }
+
+  #frase p{
+    font-size: 17px;
+  }
+
+  #presentaciones p{
+    font-size: 17px;
+  }
+
+  .volver{
+    padding: 76px 0px;
+  }
+
+  .volver a{
+    font-size: 21px;
+    padding: 14px 18px;
+  }
+
+  .fresco p{
+    font-size: 16px;
+  }
+
+  .productos_det{
+    padding-top: 86px;
+    padding-left: 21px;
+    padding-right: 17px;
+  }
+
+  .productos_det h1{
+    font-size: 47px;
+  }
+
+  .productos_det p{
+    font-size: 17px;
+  }
+
+  .productos_det2{
+    padding-top: 86px;
+    padding-left: 21px;
+    padding-right:25px;
+  }
+
+  .productos_det2 h1{
+    font-size: 47px;
+  }
+
+  .productos_det2 p{
+    font-size: 17px;
+  }
+
+  .productos_det3{
+    padding-top: 86px;
+    padding-left: 21px;
+    padding-right: 11px;
+  }
+
+  .productos_det3 h1{
+    font-size: 47px;
+  }
+
+  .productos_det3 p{
+    font-size: 17px;
+  }
+
+  #nectares h1{
+    font-size: 16px;
+    text-align: center;
+  }
+
+  #nectares p{
+    font-size: 16px;
+  }
+
+  #nectares .presentacion{
+    padding: 70px 0px;
+  }
+
+  #presentaciones2 h2{
+    font-size: 16px;
+  }
+
+  #tes p{
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  #tes h2{
+    font-size: 16px;
+  }
+
+  #maquilas{
+    padding: 80px 0px;
+  }
+
+  .servicios h1{
+    font-size: 70px;
+  }
+
+  .servicios p{
+    font-size: 22px;
+  }
+
+  .servicios ul li{
+    font-size: 16px;
+  }
+
+  .servicios2{
+    padding-left: 6%;
+    padding-bottom: 20px;
+  }
+
+  .servicios2 h1{
+    font-size: 70px;
+  }
+
+  .servicios2 p{
+    font-size: 22px;
+  }
+
+  .servicios2 ul li{
+    font-size: 16px;
+  }
+
+  #datos{
+    padding-right:18px;
+  }
+
+  #datos p{
+    font-size: 18px;
+  }
+
+  .datos h4{
+    font-size: 19px;
+    line-height: 25px;
+  }
+  
+}
+
+
+/*-----------------------------------------------------------------------*/
+
+
+@media (max-width:800px) and (min-width:767px){
+
+  #banner{
+    margin-top: 27%;
+  }
+
+  .datos_header{
+    padding-top: 51px;
+  }
+
+  #navbar li{
+    margin: 0px 25px;
+  }
+
+  #navbar a{
+    padding: 9px 1px;
+    font-size: 15px;
+  }
+
+  #nosotros h2{
+    font-size: 51px;
+  }
+
+  #nosotros h1{
+    font-size: 39px;
+    margin-top: -44px;
+  }
+
+  #nosotros p{
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  #h_productos h1{
+    font-size: 50px;
+  }
+
+  #h_productos h2{
+    font-size: 40px;
+    margin-top: -48px;
+  }
+
+  .vita{
+    margin-top: 2%;
+  }
+
+  .vita p{
+    font-size: 17px;
+    padding-bottom: 16px;
+  }
+
+  .vita h1{
+    font-size:38px;
+    padding-bottom: 10px;
+  }
+
+  .texto-link2{
+    width: 79%;
+  }
+
+  .texto-link2 h3{
+    font-size: 16px;
+  }
+
+  .texto-link1 h3{
+    font-size: 16px;
+  }
+
+  .h_productos2{
+    margin-top: 3%;
+    padding-left: 3%;
+  }
+
+  .h_productos2 p{
+    font-size: 15px;
+    line-height: 21px;
+    padding-bottom: 14px;
+  }
+
+  .h_productos2 h1{
+    font-size: 32px;
+    padding-bottom: 9px;
+  }
+
+  .texto-link4{
+    width: 71%;
+  }
+
+  .texto-link4 h3{
+    font-size: 16px;
+  }
+
+  .texto-link3{
+    width: 71%;
+  }
+
+  .texto-link3 h3{
+    font-size: 16px;
+  }
+
+  footer p{
+    line-height: 24px !important;
+    font-size: 18px !important
+  }
+
+  #titulo{
+    margin-top: 28%;
+    padding-top: 142px;
+    padding-bottom: 29px;
+  }
+
+  #titulo h1{
+    font-size: 50px;
+  }
+
+  #empresa h1{
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  #empresa p{
+    font-size: 17px;
+    line-height: 23px;
+  }
+
+  .empresa_text{
+    padding: 106px 70px;
+  }
+
+  #valores{
+    margin-top: 23%;
+  }
+
+  #valores h1{
+    font-size: 66px;
+  }
+
+  #valores h2{
+    font-size: 47px;
+    margin-top: -8%;
+  }
+
+  .valor h1{
+    font-size: 24px;
+  }
+
+  .politicas h1{
+    margin-top: 2%;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+  .politicas p{
+    text-align: center;
+    font-size: 18px;
+    line-height: 26px;
+    padding-bottom: 20px;
+  }
+
+  #productos h1{
+    font-size: 17px !important;
+  }
+
+  .texto-link h2{
+    margin-top: 18%;
+  }
+
+  #delicious h1{
+    font-size: 43px;
+  }
+
+  #detalle{
+    padding-top: 11%;
+    width: 50%;
+  }
+
+  #detalle p{
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .productos_det4{
+    padding-top: 61px;
+    padding-left: 128px;
+    padding-right: 111px;
+  }
+
+  .productos_det4 h1{
+    font-size: 46px;
+    padding-bottom: 14px;
+    text-align: center;
+  }
+
+  .productos_det4 p{
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .productos_det4 h2{
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .productos_det5{
+    padding-top: 61px;
+    padding-left: 123px;
+    padding-right: 111px;
+  }
+
+  .productos_det5 h1{
+    font-size: 46px;
+    padding-bottom: 14px;
+    text-align: center;
+  }
+
+  .productos_det5 p{
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .productos_det5 h2{
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .productos_det6{
+    padding-top: 61px;
+    padding-left: 156px;
+    padding-right: 111px;
+  }
+
+  .productos_det6 h1{
+    font-size: 46px;
+    padding-bottom: 14px;
+    text-align: center;
+  }
+
+  .productos_det6 h2{
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .productos_det6 p{
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .detalle_panela{
+    margin-top: 7%;
+    padding-left: 122px;
+    padding-right: 107px;
+  }
+
+  .detalle_panela h1{
+    font-size: 46px;
+    padding-bottom: 14px;
+    text-align: center;
+  }
+
+  .detalle_panela h2{
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .detalle_panela p{
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .detalle_panela2 h1{
+    font-size: 41px;
+    padding-bottom: 14px;
+    text-align: center;
+  }
+
+  .detalle_panela2 p{
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .detalle_panela2 h2{
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .detalle_panela2{
+    padding-left: 158px;
+  }
+
+  #frase{
+    padding: 79px 0px;
+  }
+
+  #frase h1{
+    font-size: 41px;
+    padding-bottom: 24px;
+  }
+
+  #frase p{
+    font-size: 17px;
+  }
+
+  .fresco p{
+    font-size: 18px;
+  }
+
+  .productos_det{
+    padding-top: 80px;
+    padding-right: 94px;
+  }
+
+  .productos_det h1{
+    font-size: 46px;
+    text-align: center;
+  }
+
+  .productos_det p{
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .productos_det h2{
+    font-size: 21px;
+    text-align: center;
+  }
+
+  .productos_det2{
+    padding-left: 98px;
+    padding-right: 97px;
+  }
+
+  .productos_det2 h1{
+    text-align: center;
+  }
+
+  .productos_det2 h2{
+    font-size: 21px;
+    text-align: center;
+  }
+
+  .productos_det2 p{
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .productos_det3{
+    padding-top: 63px;
+    padding-bottom: 45px;
+  }
+
+  .productos_det3 h1{
+    text-align: center;
+  }
+
+  .productos_det3 p{
+    text-align: center;
+    font-size: 17px;
+  }
+
+  .productos_det3 h2{
+    text-align: center;
+    font-size: 21px;
+  }
+
+  .volver a{
+    font-size: 26px;
+    padding: 13px 37px;
+  }
+
+  #nectares h1{
+    text-align: center;
+  }
+
+  #nectares .presentacion h1{
+    padding-bottom: 28px;
+  }
+
+  #presentaciones2 h2{
+    font-size: 17px;
+  }
+
+  #tes h2{
+    font-size: 17px;
+  }
+
+  .servicios2{
+    padding-left: 6%;
+    padding-bottom: 24px;
+  }
+
+  .servicios p{
+    font-size: 27px;
+  }
+
+  .servicios ul li{
+    font-size: 17px;
+  }
+
+  
+}
+
+
+/*-------------------------------------------------------------------------*/
+
+
+@media (max-width:900px) and (min-width:800px){
+
+  #banner{
+    margin-top: 24%;
+  }
+
+  .datos_header{
+    padding-top: 51px;
+  }
+
+  #navbar li{
+    margin: 0px 30px;
+  }
+
+  #navbar a{
+    padding: 9px 1px;
+    font-size: 15px;
+  }
+
+  #nosotros h2{
+    font-size: 51px;
+  }
+
+  #nosotros h1{
+    font-size: 39px;
+    margin-top: -44px;
+  }
+
+  #nosotros p{
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  #h_productos h1{
+    font-size: 50px;
+  }
+
+  #h_productos h2{
+    font-size: 40px;
+    margin-top: -48px;
+  }
+
+  .vita{
+    margin-top: 2%;
+  }
+
+  .vita p{
+    font-size: 17px;
+    padding-bottom: 16px;
+  }
+
+  .vita h1{
+    font-size:38px;
+    padding-bottom: 10px;
+  }
+
+  .texto-link2{
+    width: 79%;
+  }
+
+  .texto-link2 h3{
+    font-size: 16px;
+  }
+
+  .texto-link1 h3{
+    font-size: 16px;
+  }
+
+  .h_productos2{
+    margin-top: 4%;
+    padding-left: 3%;
+  }
+
+  .h_productos2 p{
+    font-size: 15px;
+    line-height: 21px;
+    padding-bottom: 14px;
+  }
+
+  .h_productos2 h1{
+    font-size: 32px;
+    padding-bottom: 9px;
+  }
+
+  .texto-link4{
+    width: 71%;
+  }
+
+  .texto-link4 h3{
+    font-size: 16px;
+  }
+
+  .texto-link3{
+    width: 71%;
+  }
+
+  .texto-link3 h3{
+    font-size: 16px;
+  }
+
+  footer p{
+    line-height: 24px !important;
+    font-size: 18px !important
+  }
+
+  #titulo{
+    margin-top: 24%;
+    padding-top: 142px;
+    padding-bottom: 29px;
+  }
+
+  #titulo h1{
+    font-size: 50px;
+  }
+
+  #empresa h1{
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  #empresa p{
+    font-size: 17px;
+    line-height: 23px;
+  }
+
+  .empresa_text{
+    padding: 106px 70px;
+  }
+
+  #valores{
+    margin-top: 23%;
+  }
+
+  #valores h1{
+    font-size: 66px;
+  }
+
+  #valores h2{
+    font-size: 47px;
+    margin-top: -8%;
+  }
+
+  .valor h1{
+    font-size: 24px;
+  }
+
+  .politicas h1{
+    margin-top: 2%;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+  .politicas p{
+    text-align: center;
+    font-size: 18px;
+    line-height: 26px;
+    padding-bottom: 20px;
+  }
+
+  .texto-link h2{
+    margin-top: 18%;
+  }
+
+  #delicious h1{
+    font-size: 43px;
+  }
+
+  #detalle{
+    padding-top: 4%;
+    width: 50%;
+  }
+
+  #detalle h3{
+    padding-bottom: 6px;
+  }
+
+  #detalle p{
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .productos_det4{
+    padding-top: 61px;
+    padding-left: 119px;
+    padding-right: 111px;
+  }
+
+  .productos_det4 h1{
+    font-size: 46px;
+    padding-bottom: 14px;
+    text-align: center;
+  }
+
+  .productos_det4 p{
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .productos_det4 h2{
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .productos_det5{
+    padding-top: 61px;
+    padding-left: 123px;
+    padding-right: 111px;
+  }
+
+  .productos_det5 h1{
+    font-size: 46px;
+    padding-bottom: 14px;
+    text-align: center;
+  }
+
+  .productos_det5 p{
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .productos_det5 h2{
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .productos_det6{
+    padding-top: 61px;
+    padding-left: 156px;
+    padding-right: 111px;
+  }
+
+  .productos_det6 h1{
+    font-size: 46px;
+    padding-bottom: 14px;
+    text-align: center;
+  }
+
+  .productos_det6 h2{
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .productos_det6 p{
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .detalle_panela{
+    margin-top: 7%;
+    padding-left: 122px;
+    padding-right: 107px;
+  }
+
+  .detalle_panela h1{
+    font-size: 46px;
+    padding-bottom: 14px;
+    text-align: center;
+  }
+
+  .detalle_panela h2{
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .detalle_panela p{
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .detalle_panela2 h1{
+    font-size: 41px;
+    padding-bottom: 14px;
+    text-align: center;
+  }
+
+  .detalle_panela2 p{
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .detalle_panela2 h2{
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .detalle_panela2{
+    padding-left: 158px;
+  }
+
+  #frase{
+    padding: 79px 0px;
+  }
+
+  #frase h1{
+    font-size: 49px;
+    padding-bottom: 24px;
+  }
+
+  #frase p{
+    font-size: 17px;
+  }
+
+  .fresco p{
+    font-size: 18px;
+  }
+
+  .productos_det{
+    padding-top: 80px;
+    padding-right: 94px;
+  }
+
+  .productos_det h1{
+    text-align: center;
+  }
+
+  .productos_det p{
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .productos_det h2{
+    font-size: 21px;
+    text-align: center;
+  }
+
+  .productos_det2{
+    padding-left: 98px;
+    padding-right: 97px;
+  }
+
+  .productos_det2 h1{
+    text-align: center;
+  }
+
+  .productos_det2 h2{
+    font-size: 21px;
+    text-align: center;
+  }
+
+  .productos_det2 p{
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .productos_det3{
+    padding-top: 63px;
+    padding-bottom: 45px;
+  }
+
+  .productos_det3 h1{
+    text-align: center;
+  }
+
+  .productos_det3 p{
+    text-align: center;
+    font-size: 17px;
+  }
+
+  .productos_det3 h2{
+    text-align: center;
+    font-size: 21px;
+  }
+
+  .volver a{
+    font-size: 26px;
+    padding: 13px 37px;
+  }
+
+  #nectares h1{
+    text-align: center;
+  }
+
+  #nectares .presentacion h1{
+    padding-bottom: 28px;
+  }
+
+  #presentaciones2 h2{
+    font-size: 17px;
+  }
+
+  #tes h2{
+    font-size: 17px;
+  }
+
+  .servicios2{
+    padding-left: 6%;
+    padding-bottom: 24px;
+  }
+
+  .servicios p{
+    font-size: 27px;
+  }
+
+  .servicios ul li{
+    font-size: 17px;
+  }
+
+  .politicas{
+    padding-left: 0px;
+  }
+
+}
+
+
+/*------------------------------------------------------------------------*/
+
+@media (max-width:950px) and (min-width:900px){
+
+  #banner{
+    margin-top: 23%;
+  }
+
+  .datos_header{
+    padding-top: 51px;
+  }
+
+  #navbar li{
+    margin: 0px 38px;
+  }
+
+  #navbar a{
+    padding: 9px 1px;
+    font-size: 15px;
+  }
+
+  #nosotros h2{
+    font-size: 51px;
+  }
+
+  #nosotros h1{
+    font-size: 39px;
+    margin-top: -44px;
+  }
+
+  #nosotros p{
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  #h_productos h1{
+    font-size: 50px;
+  }
+
+  #h_productos h2{
+    font-size: 40px;
+    margin-top: -48px;
+  }
+
+  .vita{
+    margin-top: 3%;
+  }
+
+  .vita p{
+    font-size: 17px;
+    padding-bottom: 16px;
+  }
+
+  .vita h1{
+    font-size:38px;
+    padding-bottom: 10px;
+  }
+
+  .texto-link2{
+    width: 79%;
+  }
+
+  .texto-link2 h3{
+    font-size: 16px;
+  }
+
+  .texto-link1 h3{
+    font-size: 16px;
+  }
+
+  .h_productos2{
+    margin-top: 4%;
+    padding-left: 3%;
+  }
+
+  .h_productos2 p{
+    font-size: 15px;
+    line-height: 21px;
+    padding-bottom: 14px;
+  }
+
+  .h_productos2 h1{
+    font-size: 32px;
+    padding-bottom: 9px;
+  }
+
+  .texto-link4{
+    width: 71%;
+  }
+
+  .texto-link4 h3{
+    font-size: 16px;
+  }
+
+  .texto-link3{
+    width: 71%;
+  }
+
+  .texto-link3 h3{
+    font-size: 16px;
+  }
+
+  footer p{
+    line-height: 24px !important;
+    font-size: 18px !important
+  }
+
+  #titulo{
+    margin-top: 23%;
+    padding-top: 142px;
+    padding-bottom: 29px;
+  }
+
+  #titulo h1{
+    font-size: 50px;
+  }
+
+  #empresa h1{
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  #empresa p{
+    font-size: 17px;
+    line-height: 23px;
+  }
+
+  .empresa_text{
+    padding: 106px 70px;
+  }
+
+  #valores{
+    margin-top: 23%;
+  }
+
+  #valores h1{
+    font-size: 66px;
+  }
+
+  #valores h2{
+    font-size: 47px;
+    margin-top: -8%;
+  }
+
+  .valor h1{
+    font-size: 24px;
+  }
+
+  .politicas h1{
+    margin-top: 2%;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+  .politicas p{
+    text-align: center;
+    font-size: 18px;
+    line-height: 26px;
+    padding-bottom: 20px;
+  }
+
+  .texto-link h2{
+    margin-top: 18%;
+  }
+
+  #delicious h1{
+    font-size: 43px;
+  }
+
+  #detalle{
+    padding-top: 4%;
+    width: 50%;
+  }
+
+  #detalle h3{
+    padding-bottom: 6px;
+  }
+
+  #detalle p{
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .productos_det4{
+    padding-top: 61px;
+    padding-left: 119px;
+    padding-right: 111px;
+  }
+
+  .productos_det4 h1{
+    font-size: 46px;
+    padding-bottom: 14px;
+    text-align: center;
+  }
+
+  .productos_det4 p{
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .productos_det4 h2{
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .productos_det5{
+    padding-top: 61px;
+    padding-left: 123px;
+    padding-right: 111px;
+  }
+
+  .productos_det5 h1{
+    font-size: 46px;
+    padding-bottom: 14px;
+    text-align: center;
+  }
+
+  .productos_det5 p{
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .productos_det5 h2{
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .productos_det6{
+    padding-top: 61px;
+    padding-left: 156px;
+    padding-right: 111px;
+  }
+
+  .productos_det6 h1{
+    font-size: 46px;
+    padding-bottom: 14px;
+    text-align: center;
+  }
+
+  .productos_det6 h2{
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .productos_det6 p{
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .detalle_panela{
+    margin-top: 7%;
+    padding-left: 122px;
+    padding-right: 107px;
+  }
+
+  .detalle_panela h1{
+    font-size: 46px;
+    padding-bottom: 14px;
+    text-align: center;
+  }
+
+  .detalle_panela h2{
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .detalle_panela p{
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .detalle_panela2 h1{
+    font-size: 41px;
+    padding-bottom: 14px;
+    text-align: center;
+  }
+
+  .detalle_panela2 p{
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .detalle_panela2 h2{
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .detalle_panela2{
+    padding-left: 158px;
+  }
+
+  #frase{
+    padding: 79px 0px;
+  }
+
+  #frase h1{
+    font-size: 49px;
+    padding-bottom: 24px;
+  }
+
+  #frase p{
+    font-size: 17px;
+  }
+
+  .fresco p{
+    font-size: 18px;
+  }
+
+  .productos_det{
+    padding-top: 80px;
+    padding-right: 94px;
+  }
+
+  .productos_det h1{
+    text-align: center;
+  }
+
+  .productos_det p{
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .productos_det h2{
+    font-size: 21px;
+    text-align: center;
+  }
+
+  .productos_det2{
+    padding-left: 98px;
+    padding-right: 97px;
+  }
+
+  .productos_det2 h1{
+    text-align: center;
+  }
+
+  .productos_det2 h2{
+    font-size: 21px;
+    text-align: center;
+  }
+
+  .productos_det2 p{
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .productos_det3{
+    padding-top: 63px;
+    padding-bottom: 45px;
+  }
+
+  .productos_det3 h1{
+    text-align: center;
+  }
+
+  .productos_det3 p{
+    text-align: center;
+    font-size: 17px;
+  }
+
+  .productos_det3 h2{
+    text-align: center;
+    font-size: 21px;
+  }
+
+  .volver a{
+    font-size: 26px;
+    padding: 13px 37px;
+  }
+
+  #nectares h1{
+    text-align: center;
+  }
+
+  #nectares .presentacion h1{
+    padding-bottom: 28px;
+  }
+
+  #presentaciones2 h2{
+    font-size: 17px;
+  }
+
+  #tes h2{
+    font-size: 17px;
+  }
+
+  .servicios2{
+    padding-left: 6%;
+    padding-bottom: 24px;
+  }
+
+  .servicios p{
+    font-size: 27px;
+  }
+
+  .servicios ul li{
+    font-size: 17px;
+  }
+
+  .politicas{
+    padding-left: 0px;
+  }
+
+}
+
+
+/*------------------------------------------------------------------------*/
+
+
+
+@media (max-width:991px) and (min-width:950px){
+
+  #banner{
+    margin-top: 22%;
+  }
+
+  .datos_header{
+    padding-top: 51px;
+  }
+
+  #navbar li{
+    margin: 0px 42px;
+  }
+
+  #navbar a{   
+    padding: 9px 1px;
+    font-size: 15px;
+  }
+
+  #nosotros h2{
+    font-size: 51px;
+  }
+
+  #nosotros h1{
+    font-size: 39px;
+    margin-top: -44px;
+  }
+
+  #nosotros p{
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  #h_productos h1{
+    font-size: 50px;
+  }
+
+  #h_productos h2{
+    font-size: 40px;
+    margin-top: -48px;
+  }
+
+  .vita{
+    margin-top: 3%;
+  }
+
+  .vita p{
+    font-size: 17px;
+    padding-bottom: 16px;
+  }
+
+  .vita h1{
+    font-size:38px;
+    padding-bottom: 10px;
+  }
+
+  .texto-link2{
+    width: 79%;
+  }
+
+  .texto-link2 h3{
+    font-size: 16px;
+  }
+
+  .texto-link1 h3{
+    font-size: 16px;
+  }
+
+  .h_productos2{
+    margin-top: 4%;
+    padding-left: 3%;
+  }
+
+  .h_productos2 p{
+    font-size: 15px;
+    line-height: 21px;
+    padding-bottom: 14px;
+  }
+
+  .h_productos2 h1{
+    font-size: 32px;
+    padding-bottom: 9px;
+  }
+
+  .texto-link4{
+    width: 71%;
+  }
+
+  .texto-link4 h3{
+    font-size: 16px;
+  }
+
+  .texto-link3{
+    width: 71%;
+  }
+
+  .texto-link3 h3{
+    font-size: 16px;
+  }
+
+  footer p{
+    line-height: 24px !important;
+    font-size: 18px !important
+  }
+
+  #titulo{
+    margin-top: 22%;
+    padding-top: 142px;
+    padding-bottom: 29px;
+  }
+
+  #titulo h1{
+    font-size: 50px;
+  }
+
+  #empresa h1{
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  #empresa p{
+    font-size: 17px;
+    line-height: 23px;
+  }
+
+  .empresa_text{
+    padding: 106px 70px;
+  }
+
+  #valores{
+    margin-top: 23%;
+  }
+
+  #valores h1{
+    font-size: 66px;
+  }
+
+  #valores h2{
+    font-size: 47px;
+    margin-top: -8%;
+  }
+
+  .valor h1{
+    font-size: 24px;
+  }
+
+  .politicas h1{
+    margin-top: 2%;
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+  .politicas p{
+    text-align: center;
+    font-size: 18px;
+    line-height: 26px;
+    padding-bottom: 20px;
+  }
+
+  .texto-link h2{
+    margin-top: 18%;
+  }
+
+  #delicious h1{
+    font-size: 43px;
+  }
+
+  #detalle{
+    padding-top: 4%;
+    width: 50%;
+  }
+
+  #detalle h3{
+    padding-bottom: 6px;
+  }
+
+  #detalle p{
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .productos_det4{
+    padding-top: 61px;
+    padding-left: 119px;
+    padding-right: 111px;
+  }
+
+  .productos_det4 h1{
+    font-size: 46px;
+    padding-bottom: 14px;
+    text-align: center;
+  }
+
+  .productos_det4 p{
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .productos_det4 h2{
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .productos_det5{
+    padding-top: 61px;
+    padding-left: 123px;
+    padding-right: 111px;
+  }
+
+  .productos_det5 h1{
+    font-size: 46px;
+    padding-bottom: 14px;
+    text-align: center;
+  }
+
+  .productos_det5 p{
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .productos_det5 h2{
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .productos_det6{
+    padding-top: 61px;
+    padding-left: 156px;
+    padding-right: 111px;
+  }
+
+  .productos_det6 h1{
+    font-size: 46px;
+    padding-bottom: 14px;
+    text-align: center;
+  }
+
+  .productos_det6 h2{
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .productos_det6 p{
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .detalle_panela{
+    margin-top: 7%;
+    padding-left: 122px;
+    padding-right: 107px;
+  }
+
+  .detalle_panela h1{
+    font-size: 46px;
+    padding-bottom: 14px;
+    text-align: center;
+  }
+
+  .detalle_panela h2{
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .detalle_panela p{
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .detalle_panela2 h1{
+    font-size: 41px;
+    padding-bottom: 14px;
+    text-align: center;
+  }
+
+  .detalle_panela2 p{
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .detalle_panela2 h2{
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .detalle_panela2{
+    padding-left: 158px;
+  }
+
+  #frase{
+    padding: 79px 0px;
+  }
+
+  #frase h1{
+    font-size: 49px;
+    padding-bottom: 24px;
+  }
+
+  #frase p{
+    font-size: 17px;
+  }
+
+  .fresco p{
+    font-size: 18px;
+  }
+
+  .productos_det{
+    padding-top: 80px;
+    padding-right: 94px;
+  }
+
+  .productos_det h1{
+    text-align: center;
+  }
+
+  .productos_det p{
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .productos_det h2{
+    font-size: 21px;
+    text-align: center;
+  }
+
+  .productos_det2{
+    padding-left: 98px;
+    padding-right: 97px;
+  }
+
+  .productos_det2 h1{
+    text-align: center;
+  }
+
+  .productos_det2 h2{
+    font-size: 21px;
+    text-align: center;
+  }
+
+  .productos_det2 p{
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .productos_det3{
+    padding-top: 63px;
+    padding-bottom: 45px;
+  }
+
+  .productos_det3 h1{
+    text-align: center;
+  }
+
+  .productos_det3 p{
+    text-align: center;
+    font-size: 17px;
+  }
+
+  .productos_det3 h2{
+    text-align: center;
+    font-size: 21px;
+  }
+
+  .volver a{
+    font-size: 26px;
+    padding: 13px 37px;
+  }
+
+  #nectares h1{
+    text-align: center;
+  }
+
+  #nectares .presentacion h1{
+    padding-bottom: 28px;
+  }
+
+  #presentaciones2 h2{
+    font-size: 17px;
+  }
+
+  #tes h2{
+    font-size: 17px;
+  }
+
+  .servicios2{
+    padding-left: 6%;
+    padding-bottom: 24px;
+  }
+
+  .servicios p{
+    font-size: 27px;
+  }
+
+  .servicios ul li{
+    font-size: 17px;
+  }
+
+  .politicas{
+    padding-left: 0px;
+  }
+
+
+  
+}
+
+/*--------------------------------------------------------------------------*/
+
+
+@media (max-width:1000px) and (min-width:991px){
+
+  #banner{
+    margin-top: 8%;
+  }
+
+  .datos_header{
+    padding-top: 51px;
+  }
+
+  #navbar li{
+    margin: 0px 46px;
+  }
+
+  #navbar a{
+    padding: 9px 1px;
+    font-size: 15px;
+  }
+
+  #nosotros h2{
+    font-size: 60px;
+  }
+
+  #nosotros h1{
+    font-size: 46px;
+    margin-top: -53px;
+  }
+
+  #nosotros p{
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  #h_productos h1{
+    font-size: 64px;
+  }
+
+  #h_productos h2{
+    margin-top: -60px;
+  }
+
+  .vita{
+    margin-top: 5%;
+  }
+
+  .texto-link2{
+    width: 68%;
+  }
+
+  .h_productos2{
+    margin-top:4%;
+    padding-left: 4%;
+  }
+
+  .h_productos2 p{
+    font-size: 17px;
+    line-height: 25px;
+  }
+
+  .h_productos2 h1{
+    font-size: 41px;
+    padding-bottom: 11px;
+  }
+
+  .texto-link4{
+    width: 74%;
+  }
+
+  .texto-link3{
+    width: 74%;
+  }
+
+  #titulo{
+    margin-top: 22%;
+    padding-bottom: 32px;
+    padding-top: 128px;
+  }
+
+  #titulo h1{
+    font-size: 55px;
+  }
+
+  .empresa_text{
+    padding: 106px 70px;
+  }
+
+  #valores{
+    margin-top: 18%;
+  }
+
+  #valores h1{
+    font-size: 70px;
+  }
+
+  #valores h2{
+    margin-top: -6%;
+  }
+
+  .valor h1{
+    font-size: 20px;
+  }
+
+  .politicas h1{
+    font-size: 33px;
+    padding-bottom: 10px;
+    margin-top: 13%;
+  }
+
+  .politicas p{
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  #delicious h1{
+    font-size: 51px;
+  }
+
+  #detalle{
+    width: 50%;
+    padding-top: 5%;
+  }
+
+  .productos_det4{
+    padding-top: 53px;
+    padding-left: 19px;
+    padding-right: 18px;
+  }
+
+  .productos_det4 h1{
+    font-size: 26px;
+    padding-bottom: 8px;
+  }
+
+  .productos_det4 p{
+    font-size: 14px;
+  }
+
+  .detalle_panela2{
+    margin-top: 3%;
+    padding-left: 50px;
+    padding-right: 18px;
+  }
+
+  .detalle_panela2 h1{
+    font-size:29px;
+  }
+
+  .detalle_panela2 p{
+    font-size: 15px;
+  }
+
+  .detalle_panela2 h2{
+    font-size: 22px;
+    padding-bottom: 0px;
+  }
+
+  .detalle_panela{
+    margin-top: 3%;
+    padding-left: 17px;
+    padding-right: 18px;
+  }
+
+  .detalle_panela h1{
+    font-size: 28px;
+  }
+
+  .detalle_panela p{
+    font-size: 14px;
+    padding-bottom: 4px;
+  }
+
+  .detalle_panela h2{
+    font-size: 22px;
+  }
+
+  .productos_det6{
+    padding-top: 42px;
+    padding-left: 26px;
+    padding-right: 21px;
+  }
+
+  .productos_det6 h1{
+    font-size: 26px;
+  }
+
+  .productos_det6 p{
+    font-size: 14px;
+  }
+
+  .productos_det6 h2{
+    font-size: 20px;
+    padding-top: 6px;
+  }
+
+  .productos_det5{
+    padding-top: 17px;
+    padding-left: 18px;
+    padding-right: 14px;
+  }
+
+  .productos_det5 h1{
+    font-size: 26px;
+  }
+
+  .productos_det5 p{
+    font-size: 14px;
+    line-height: 19px;
+    padding-bottom: 7px;
+  }
+
+  .productos_det5 h2{
+    font-size: 20px;
+    padding-bottom: 4px;
+  }
+
+  .productos_det{
+    padding-top: 11px;
+    padding-left: 24px;
+    padding-right: 18px;
+  }
+
+  .productos_det h1{
+    font-size: 28px;
+  }
+
+  .productos_det p{
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .productos_det h2{
+    font-size: 17px;
+    padding-top: 5px;
+  }
+
+  .productos_det2{
+    padding-top: 25px;
+    padding-right: 11px;
+    padding-left: 19px;
+  }
+
+  .productos_det2 h1{
+    font-size: 28px;
+  }
+
+  .productos_det2 p{
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .productos_det2 h2{
+    font-size: 17px;
+    padding-top: 5px;
+  }
+
+  .productos_det3{
+    padding-top: 17px;
+    padding-left: 33px;
+    padding-right: 0px;
+  }
+
+  .productos_det3 h1{
+    font-size: 28px;
+  }
+
+  .productos_det3 p{
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .productos_det3 h2{
+    font-size: 18px;
+    padding-bottom: 0px;
+  }
+
+  #frase h1{
+    font-size: 41px;
+  }
+
+  #tes h2{
+    font-size: 17px;
+  }
+
+  .productos_det4 h2{
+    font-size: 18px;
+  }
+
+  .volver a{
+    padding: 13px 37px;
+    font-size: 26px;
+  }
+
+  .servicios{
+    padding-left: 2%;
+    padding-right: 1%;
+    padding-top: 2%;
+  }
+
+  .servicios h1{
+    font-size: 54px;
+  }
+
+  .servicios p{
+    font-size: 19px;
+  }
+
+  .servicios ul li{
+    font-size: 15px;
+    line-height: 21px;
+  }
+
+  .servicios2{
+    padding-left: 2%;
+    padding-right: 1%;
+    padding-top: 2%;
+  }
+
+  .servicios2 h1{
+    font-size: 40px;
+  }
+
+  .servicios2 p{
+    font-size: 19px;
+  }
+
+  .servicios2 ul li{
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  #datos p{
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .datos h4{
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .btn a{
+    font-size: 18px;
+  }
+
+  #nosotros{
+    padding: 37px 0px;
+  }
+
+  .slide .slide__content--headings .top-title{
+    font-size: 50px;
+  }
+
+  .slide .slide__content--headings .title{
+    font-size: 20px;
+  }
+
+}
+
+
+/*--------------------------------------------------------------------------------------*/
+
+
+@media (max-width:1100px) and (min-width:1000px){
+
+  #banner{
+    margin-top: 8%;
+  }
+
+  .datos_header{
+    padding-top: 51px;
+  }
+
+  #navbar li{
+    margin: 0px 50px;
+  }
+
+  #navbar a{
+    padding: 9px 1px;
+    font-size: 15px;
+  }
+
+  #nosotros h2{
+    font-size: 60px;
+  }
+
+  #nosotros h1{
+    font-size: 46px;
+    margin-top: -53px;
+  }
+
+  #nosotros p{
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  #h_productos h1{
+    font-size: 64px;
+  }
+
+  #h_productos h2{
+    margin-top: -60px;
+  }
+
+  .vita{
+    margin-top: 5%;
+  }
+
+  .texto-link2{
+    width: 68%;
+  }
+
+  .h_productos2{
+    margin-top:4%;
+    padding-left: 4%;
+  }
+
+  .h_productos2 p{
+    font-size: 17px;
+    line-height: 25px;
+  }
+
+  .h_productos2 h1{
+    font-size: 41px;
+    padding-bottom: 11px;
+  }
+
+  .texto-link4{
+    width: 74%;
+  }
+
+  .texto-link3{
+    width: 74%;
+  }
+
+  #titulo{
+    margin-top: 19%;
+    padding-bottom: 32px;
+    padding-top: 128px;
+  }
+
+  #titulo h1{
+    font-size: 55px;
+  }
+
+  .empresa_text{
+    padding: 106px 70px;
+  }
+
+  #valores{
+    margin-top: 18%;
+  }
+
+  #valores h1{
+    font-size: 70px;
+  }
+
+  #valores h2{
+    margin-top: -6%;
+  }
+
+  .valor h1{
+    font-size: 20px;
+  }
+
+  .politicas h1{
+    font-size: 36px;
+    padding-bottom: 14px;
+  }
+
+  .politicas p{
+    font-size: 17px;
+    line-height: 23px;
+  }
+
+  #delicious h1{
+    font-size: 51px;
+  }
+
+  #detalle{
+    width: 50%;
+    padding-top: 5%;
+  }
+
+  .productos_det4{
+    padding-top: 53px;
+    padding-left: 19px;
+    padding-right: 18px;
+  }
+
+  .productos_det4 h1{
+    font-size: 26px;
+    padding-bottom: 8px;
+  }
+
+  .productos_det4 p{
+    font-size: 15px;
+  }
+
+  .detalle_panela2{
+    margin-top: 3%;
+    padding-left: 50px;
+    padding-right: 18px;
+  }
+
+  .detalle_panela2 h1{
+    font-size:29px;
+  }
+
+  .detalle_panela2 p{
+    font-size: 15px;
+  }
+
+  .detalle_panela2 h2{
+    font-size: 22px;
+    padding-bottom: 0px;
+  }
+
+  .detalle_panela{
+    margin-top: 3%;
+    padding-left: 17px;
+    padding-right: 18px;
+  }
+
+  .detalle_panela h1{
+    font-size: 28px;
+  }
+
+  .detalle_panela p{
+    font-size: 14px;
+    padding-bottom: 4px;
+  }
+
+  .detalle_panela h2{
+    font-size: 22px;
+  }
+
+  .productos_det6{
+    padding-top: 42px;
+    padding-left: 26px;
+    padding-right: 21px;
+  }
+
+  .productos_det6 h1{
+    font-size: 26px;
+  }
+
+  .productos_det6 p{
+    font-size: 14px;
+  }
+
+  .productos_det6 h2{
+    font-size: 20px;
+    padding-top: 6px;
+  }
+
+  .productos_det5{
+    padding-top: 25px;
+    padding-left: 18px;
+    padding-right: 14px;
+  }
+
+  .productos_det5 h1{
+    font-size: 26px;
+  }
+
+  .productos_det5 p{
+    font-size: 14px;
+    line-height: 19px;
+    padding-bottom: 7px;
+  }
+
+  .productos_det5 h2{
+    font-size: 20px;
+    padding-bottom: 4px;
+  }
+
+  .productos_det{
+    padding-top: 11px;
+    padding-left: 24px;
+    padding-right: 18px;
+  }
+
+  .productos_det h1{
+    font-size: 28px;
+  }
+
+  .productos_det p{
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .productos_det h2{
+    font-size: 17px;
+    padding-top: 5px;
+  }
+
+  .productos_det2{
+    padding-top: 25px;
+    padding-right: 11px;
+    padding-left: 19px;
+  }
+
+  .productos_det2 h1{
+    font-size: 28px;
+  }
+
+  .productos_det2 p{
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .productos_det2 h2{
+    font-size: 17px;
+    padding-top: 5px;
+  }
+
+  .productos_det3{
+    padding-top: 17px;
+    padding-left: 33px;
+    padding-right: 0px;
+  }
+
+  .productos_det3 h1{
+    font-size: 28px;
+  }
+
+  .productos_det3 p{
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .productos_det3 h2{
+    font-size: 18px;
+    padding-bottom: 0px;
+  }
+
+  #frase h1{
+    font-size: 41px;
+  }
+
+  #tes h2{
+    font-size: 17px;
+  }
+
+  .productos_det4 h2{
+    font-size: 18px;
+  }
+
+  .volver a{
+    padding: 13px 37px;
+    font-size: 26px;
+  }
+
+  .servicios{
+    padding-left: 2%;
+    padding-right: 1%;
+    padding-top: 2%;
+  }
+
+  .servicios h1{
+    font-size: 54px;
+  }
+
+  .servicios p{
+    font-size: 19px;
+  }
+
+  .servicios ul li{
+    font-size: 15px;
+    line-height: 21px;
+  }
+
+  .servicios2{
+    padding-left: 2%;
+    padding-right: 1%;
+    padding-top: 2%;
+  }
+
+  .servicios2 h1{
+    font-size: 40px;
+  }
+
+  .servicios2 p{
+    font-size: 19px;
+  }
+
+  .servicios2 ul li{
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  #datos p{
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .datos h4{
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .btn a{
+    font-size: 18px;
+  }
+
+  #nosotros{
+    padding: 37px 0px;
+  }
+
+  .slide .slide__content--headings .top-title{
+    font-size: 50px;
+  }
+
+  .slide .slide__content--headings .title{
+    font-size: 20px;
+  }
+ 
+}
+
+
+
+/*------------------------------------------------------------------------*/
+
+
+@media (max-width:1200px) and (min-width:1100px){
+
+  #banner{
+    margin-top: 9%;
+  }
+
+  .datos_header{
+    padding-top: 51px;
+  }
+
+  #navbar li{
+    margin: 0px 59px;
+  }
+
+  #navbar a{
+    padding: 9px 1px;
+    font-size: 15px;
+  }
+
+  #nosotros h2{
+    font-size: 60px;
+  }
+
+  #nosotros h1{
+    font-size: 46px;
+    margin-top: -53px;
+  }
+
+  #nosotros p{
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  #h_productos h1{
+    font-size: 64px;
+  }
+
+  #h_productos h2{
+    margin-top: -60px;
+  }
+
+  .vita{
+    margin-top: 5%;
+  }
+
+  .texto-link2{
+    width: 68%;
+  }
+
+  .h_productos2{
+    margin-top:4%;
+    padding-left: 4%;
+  }
+
+  .h_productos2 p{
+    font-size: 17px;
+    line-height: 25px;
+  }
+
+  .h_productos2 h1{
+    font-size: 41px;
+    padding-bottom: 11px;
+  }
+
+  .texto-link4{
+    width: 74%;
+  }
+
+  .texto-link3{
+    width: 74%;
+  }
+
+  #titulo{
+    margin-top: 19%;
+    padding-bottom: 32px;
+    padding-top: 128px;
+  }
+
+  #titulo h1{
+    font-size: 55px;
+  }
+
+  .empresa_text{
+    padding: 106px 70px;
+  }
+
+  #empresa h1{
+    font-size: 26px;
+  }
+
+  #valores{
+    margin-top: 18%;
+  }
+
+  #valores h1{
+    font-size: 70px;
+  }
+
+  #valores h2{
+    margin-top: -6%;
+  }
+
+  .valor h1{
+    font-size: 20px;
+  }
+
+  .politicas h1{
+    font-size: 36px;
+    padding-bottom: 14px;
+  }
+
+  .politicas p{
+    font-size: 17px;
+    line-height: 23px;
+  }
+
+  #delicious h1{
+    font-size: 51px;
+  }
+
+  #detalle{
+    width: 50%;
+    padding-top: 5%;
+  }
+
+  .productos_det4{
+    padding-top: 63px;
+    padding-left: 58px;
+    padding-right: 27px;
+  }
+
+  .productos_det4 h1{
+    font-size: 26px;
+    padding-bottom: 8px;
+  }
+
+  .productos_det4 p{
+    font-size: 15px;
+  }
+
+  .detalle_panela2{
+    margin-top: 3%;
+    padding-left: 50px;
+    padding-right: 18px;
+  }
+
+  .detalle_panela2 h1{
+    font-size:29px;
+  }
+
+  .detalle_panela2 p{
+    font-size: 15px;
+  }
+
+  .detalle_panela2 h2{
+    font-size: 22px;
+    padding-bottom: 0px;
+  }
+
+  .detalle_panela{
+    margin-top: 4%;
+    padding-left: 17px;
+    padding-right: 18px;
+  }
+
+  .detalle_panela h1{
+    font-size: 28px;
+  }
+
+  .detalle_panela p{
+    font-size: 14px;
+    padding-bottom: 4px;
+  }
+
+  .detalle_panela h2{
+    font-size: 22px;
+  }
+
+  .productos_det6{
+    padding-top: 42px;
+    padding-left: 26px;
+    padding-right: 21px;
+  }
+
+  .productos_det6 h1{
+    font-size: 26px;
+  }
+
+  .productos_det6 p{
+    font-size: 14px;
+  }
+
+  .productos_det6 h2{
+    font-size: 20px;
+    padding-top: 6px;
+  }
+
+  .productos_det5{
+    padding-top: 41px;
+    padding-left: 51px;
+    padding-right:42px;
+  }
+
+  .productos_det5 h1{
+    font-size: 26px;
+  }
+
+  .productos_det5 p{
+    font-size: 14px;
+    line-height: 19px;
+    padding-bottom: 7px;
+  }
+
+  .productos_det5 h2{
+    font-size: 20px;
+    padding-bottom: 4px;
+  }
+
+  .productos_det{
+    padding-top: 41px;
+    padding-left: 24px;
+    padding-right: 18px;
+  }
+
+  .productos_det h1{
+    font-size: 28px;
+  }
+
+  .productos_det p{
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .productos_det h2{
+    font-size: 17px;
+    padding-top: 5px;
+  }
+
+  .productos_det2{
+    padding-top:44px;
+    padding-right: 11px;
+    padding-left: 19px;
+  }
+
+  .productos_det2 h1{
+    font-size: 28px;
+  }
+
+  .productos_det2 p{
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .productos_det2 h2{
+    font-size: 17px;
+    padding-top: 5px;
+  }
+
+  .productos_det3{
+    padding-top: 35px;
+    padding-left: 33px;
+    padding-right: 0px;
+  }
+
+  .productos_det3 h1{
+    font-size: 28px;
+  }
+
+  .productos_det3 p{
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .productos_det3 h2{
+    font-size: 18px;
+    padding-bottom: 0px;
+  }
+
+  #frase h1{
+    font-size: 41px;
+  }
+
+  #tes h2{
+    font-size: 17px;
+  }
+
+  .productos_det4 h2{
+    font-size: 18px;
+  }
+
+  .volver a{
+    padding: 13px 37px;
+    font-size: 26px;
+  }
+
+  .servicios{
+    padding-left: 2%;
+    padding-right: 1%;
+    padding-top: 2%;
+  }
+
+  .servicios h1{
+    font-size: 54px;
+  }
+
+  .servicios p{
+    font-size: 19px;
+  }
+
+  .servicios ul li{
+    font-size: 15px;
+    line-height: 21px;
+  }
+
+  .servicios2{
+    padding-left: 2%;
+    padding-right: 1%;
+    padding-top: 2%;
+  }
+
+  .servicios2 h1{
+    font-size: 40px;
+  }
+
+  .servicios2 p{
+    font-size: 19px;
+  }
+
+  .servicios2 ul li{
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  #datos p{
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .datos h4{
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .btn a{
+    font-size: 18px;
+  }
+
+  #nosotros{
+    padding: 37px 0px;
+  }
+
+  .slide .slide__content--headings .top-title{
+    font-size: 50px;
+  }
+
+  .slide .slide__content--headings .title{
+    font-size: 20px;
+  }
+
+}
+
+/*------------------------------------------------------------*/
+
+@media (max-width:1300px) and (min-width:1200px){
+
+   #banner{
+    margin-top: 9%;
+  }
+
+  .datos_header{
+    padding-top: 51px;
+  }
+
+  #navbar li{
+    margin: 0px 62px;
+  }
+
+  #navbar a{
+    padding: 9px 1px;
+    font-size: 15px;
+  }
+
+  .datos_header p{
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  #nosotros h2{
+    font-size: 60px;
+  }
+
+  #nosotros h1{
+    font-size: 46px;
+    margin-top: -53px;
+  }
+
+  #nosotros p{
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  #h_productos h1{
+    font-size: 64px;
+  }
+
+  #h_productos h2{
+    margin-top: -60px;
+  }
+
+  .vita{
+    margin-top: 5%;
+  }
+
+  .texto-link2{
+    width: 68%;
+  }
+
+  .h_productos2{
+    margin-top:4%;
+    padding-left: 4%;
+  }
+
+  .h_productos2 p{
+    font-size: 17px;
+    line-height: 25px;
+  }
+
+  .h_productos2 h1{
+    font-size: 41px;
+    padding-bottom: 11px;
+  }
+
+  .texto-link4{
+    width: 74%;
+  }
+
+  .texto-link3{
+    width: 74%;
+  }
+
+  #titulo{
+    margin-top: 18%;
+  }
+
+  #titulo h1{
+    font-size: 55px;
+  }
+
+  .empresa_text{
+    padding: 106px 70px;
+  }
+
+  #empresa h1{
+    font-size: 26px;
+  }
+
+  #valores{
+    margin-top: 18%;
+  }
+
+  #valores p{
+    padding: 47px 5px;
+  }
+
+  #valores h1{
+    font-size: 52px;
+  }
+
+  #valores h2{
+    margin-top: -6%;
+  }
+
+  .valor h1{
+    font-size: 20px;
+  }
+
+  .politicas h1{
+    font-size: 36px;
+    padding-bottom: 14px;
+    margin-top: 11%;
+  }
+
+  .politicas p{
+    font-size: 17px;
+    line-height: 23px;
+  }
+
+  #delicious h1{
+    font-size: 51px;
+  }
+
+  #detalle{
+    width: 50%;
+    padding-top: 5%;
+  }
+
+  .productos_det4{
+    padding-top: 63px;
+    padding-left: 58px;
+    padding-right: 27px;
+  }
+
+  .productos_det4 h1{
+    font-size: 26px;
+    padding-bottom: 8px;
+  }
+
+  .productos_det4 p{
+    font-size: 15px;
+  }
+
+  .detalle_panela2{
+    margin-top: 3%;
+    padding-left: 50px;
+    padding-right: 18px;
+  }
+
+  .detalle_panela2 h1{
+    font-size:29px;
+  }
+
+  .detalle_panela2 p{
+    font-size: 15px;
+  }
+
+  .detalle_panela2 h2{
+    font-size: 22px;
+    padding-bottom: 0px;
+  }
+
+  .detalle_panela{
+    margin-top: 4%;
+    padding-left: 17px;
+    padding-right: 18px;
+  }
+
+  .detalle_panela h1{
+    font-size: 28px;
+  }
+
+  .detalle_panela p{
+    font-size: 15px;
+    padding-bottom: 4px;
+  }
+
+  .detalle_panela h2{
+    font-size: 22px;
+  }
+
+  .productos_det6{
+    padding-top: 42px;
+    padding-left: 26px;
+    padding-right: 21px;
+  }
+
+  .productos_det6 h1{
+    font-size: 26px;
+  }
+
+  .productos_det6 p{
+    font-size: 15px;
+  }
+
+  .productos_det6 h2{
+    font-size: 20px;
+    padding-top: 6px;
+  }
+
+  .productos_det5{
+    padding-top: 47px;
+    padding-left: 51px;
+    padding-right:42px;
+  }
+
+  .productos_det5 h1{
+    font-size: 26px;
+  }
+
+  .productos_det5 p{
+    font-size: 15px;
+    line-height: 19px;
+    padding-bottom: 7px;
+  }
+
+  .productos_det5 h2{
+    font-size: 20px;
+    padding-bottom: 4px;
+  }
+
+  .productos_det{
+    padding-top:55px;
+    padding-left: 24px;
+    padding-right: 18px;
+  }
+
+  .productos_det h1{
+    font-size: 28px;
+  }
+
+  .productos_det p{
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .productos_det h2{
+    font-size: 17px;
+    padding-top: 5px;
+  }
+
+  .productos_det2{
+    padding-top:59px;
+    padding-right: 11px;
+    padding-left: 19px;
+  }
+
+  .productos_det2 h1{
+    font-size: 28px;
+  }
+
+  .productos_det2 p{
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .productos_det2 h2{
+    font-size: 17px;
+    padding-top: 5px;
+  }
+
+  .productos_det3{
+    padding-top: 43px;
+    padding-left: 33px;
+    padding-right: 0px;
+  }
+
+  .productos_det3 h1{
+    font-size: 28px;
+  }
+
+  #nectares h1{
+    text-align: center;
+  }
+
+  .productos_det3 p{
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .productos_det3 h2{
+    font-size: 18px;
+    padding-bottom: 0px;
+  }
+
+  #frase h1{
+    font-size: 41px;
+  }
+
+  #tes h2{
+    font-size: 17px;
+  }
+
+  .productos_det4 h2{
+    font-size: 18px;
+  }
+
+  .volver a{
+    padding: 13px 37px;
+    font-size: 26px;
+  }
+
+  .servicios{
+    padding-left: 2%;
+    padding-right: 1%;
+    padding-top: 2%;
+  }
+
+  .servicios h1{
+    font-size: 54px;
+  }
+
+  .servicios p{
+    font-size: 19px;
+  }
+
+  .servicios ul li{
+    font-size: 15px;
+    line-height: 21px;
+  }
+
+  .servicios2{
+    padding-left: 2%;
+    padding-right: 1%;
+    padding-top: 2%;
+  }
+
+  .servicios2 h1{
+    font-size: 40px;
+  }
+
+  .servicios2 p{
+    font-size: 19px;
+  }
+
+  .servicios2 ul li{
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  #datos p{
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .datos h4{
+    font-size: 15px;
+    line-height: 23px;
+  }
+
+  .btn a{
+    font-size: 18px;
+  }
+
+  #nosotros{
+    padding: 37px 0px;
+  }
+
+  .slide .slide__content--headings .top-title{
+    font-size: 50px;
+  }
+
+  .slide .slide__content--headings .title{
+    font-size: 20px;
+  }
+
+}
+
+/*-----------------------------------------------------------------*/
+
+@media (max-width:1400px) and (min-width:1300px){
+
+   #banner{
+    margin-top: 12%;
+  }
+
+  .datos_header p{
+    font-size: 13px;
+    line-height: 19px;
+  }
+
+  .datos_header{
+    padding-top: 51px;
+  }
+
+  #navbar li{
+    margin: 0px 50px;
+  }
+
+  #nosotros h2{
+    font-size: 60px;
+  }
+
+  #nosotros h1{
+    font-size: 46px;
+    margin-top: -53px;
+  }
+
+  #nosotros p{
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  #h_productos h1{
+    font-size: 64px;
+  }
+
+  #h_productos h2{
+    margin-top: -60px;
+  }
+
+  .vita{
+    margin-top: 5%;
+  }
+
+  .texto-link2{
+    width: 68%;
+  }
+
+  .h_productos2{
+    margin-top:4%;
+    padding-left: 4%;
+  }
+
+  .h_productos2 p{
+    font-size: 17px;
+    line-height: 25px;
+  }
+
+  .h_productos2 h1{
+    font-size: 41px;
+    padding-bottom: 11px;
+  }
+
+  .texto-link4{
+    width: 74%;
+  }
+
+  .texto-link3{
+    width: 74%;
+  }
+
+  #titulo{
+    margin-top: 16%;
+  }
+
+  #titulo h1{
+    font-size: 55px;
+  }
+
+  .empresa_text{
+    padding: 106px 70px;
+  }
+
+  #empresa h1{
+    font-size: 26px;
+  }
+
+  #valores{
+    margin-top: 18%;
+  }
+
+  #valores p{
+    padding: 47px 5px;
+  }
+
+  #valores h1{
+    font-size: 52px;
+  }
+
+  #valores h2{
+    margin-top: -6%;
+  }
+
+  .valor h1{
+    font-size: 20px;
+  }
+
+  .politicas h1{
+    font-size: 41px;
+    padding-bottom: 14px;
+    margin-top: 17%;
+  }
+
+  .politicas p{
+    font-size: 17px;
+    line-height: 23px;
+  }
+
+  #delicious h1{
+    font-size: 51px;
+  }
+
+  #detalle{
+    width: 50%;
+    padding-top: 5%;
+  }
+
+  .productos_det4{
+    padding-top: 98px;
+    padding-left: 58px;
+    padding-right: 27px;
+  }
+
+  .productos_det4 h1{
+    font-size:42px;
+  }
+
+  .productos_det4 p{
+    font-size:17px;
+  }
+
+  .detalle_panela2{
+    margin-top: 7%;
+    padding-left: 50px;
+    padding-right: 18px;
+  }
+
+  .detalle_panela2 h1{
+    font-size:42px;
+  }
+
+  .detalle_panela2 p{
+    font-size: 17px;
+  }
+
+  .detalle_panela2 h2{
+    font-size: 22px;
+    padding-bottom: 0px;
+  }
+
+  .detalle_panela{
+    margin-top: 4%;
+    padding-left: 17px;
+    padding-right: 18px;
+  }
+
+  .detalle_panela h1{
+    font-size: 42px;
+  }
+
+  .detalle_panela p{
+    font-size: 17px;
+    padding-bottom: 4px;
+  }
+
+  .detalle_panela h2{
+    font-size: 22px;
+  }
+
+  .productos_det6{
+    padding-top: 69px;
+    padding-left: 26px;
+    padding-right: 21px;
+  }
+
+  .productos_det6 h1{
+    font-size: 42px;
+  }
+
+  .productos_det6 p{
+    font-size: 17px;
+  }
+
+  .productos_det6 h2{
+    font-size: 20px;
+    padding-top: 6px;
+  }
+
+  .productos_det5{
+    padding-top: 70px;
+    padding-left: 51px;
+    padding-right:42px;
+  }
+
+  .productos_det5 h1{
+    font-size: 42px;
+  }
+
+  .productos_det5 p{
+    font-size: 17px;
+    line-height: 21px;
+    padding-bottom: 7px;
+  }
+
+  .productos_det5 h2{
+    font-size: 20px;
+    padding-bottom: 4px;
+  }
+
+  .productos_det{
+    padding-top:55px;
+    padding-left: 24px;
+    padding-right: 18px;
+  }
+
+  .productos_det h1{
+    font-size: 42px;
+  }
+
+  .productos_det p{
+    font-size: 17px;
+    line-height: 20px;
+  }
+
+  .productos_det h2{
+    font-size: 17px;
+    padding-top: 5px;
+  }
+
+  .productos_det2{
+    padding-top:59px;
+    padding-right: 11px;
+    padding-left: 19px;
+  }
+
+  .productos_det2 h1{
+    font-size: 42px;
+  }
+
+  .productos_det2 p{
+    font-size: 17px;
+    line-height: 21px;
+  }
+
+  .productos_det2 h2{
+    font-size: 17px;
+    padding-top: 5px;
+  }
+
+  .productos_det3{
+    padding-top: 43px;
+    padding-left: 33px;
+    padding-right: 0px;
+  }
+
+  .productos_det3 h1{
+    font-size: 42px;
+  }
+
+  #nectares h1{
+    text-align: center;
+  }
+
+  .productos_det3 p{
+    font-size: 17px;
+    line-height: 20px;
+  }
+
+  .productos_det3 h2{
+    font-size: 18px;
+    padding-bottom: 0px;
+  }
+
+  #tes h2{
+    font-size: 17px;
+  }
+
+  .volver a{
+    padding: 13px 37px;
+    font-size: 26px;
+  }
+
+  .servicios{
+    padding-left: 2%;
+    padding-right: 1%;
+    padding-top: 2%;
+  }
+
+  .servicios h1{
+    font-size: 54px;
+  }
+
+  .servicios p{
+    font-size: 19px;
+  }
+
+  .servicios ul li{
+    font-size: 15px;
+    line-height: 21px;
+  }
+
+  .servicios2{
+    padding-left: 2%;
+    padding-right: 1%;
+    padding-top: 2%;
+  }
+
+  .servicios2 h1{
+    font-size: 40px;
+  }
+
+  .servicios2 p{
+    font-size: 19px;
+  }
+
+  .servicios2 ul li{
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  #datos p{
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .datos h4{
+    font-size: 15px;
+    line-height: 23px;
+  }
+
+  .btn a{
+    font-size: 18px;
+  }
+
+  #nosotros{
+    padding: 37px 0px;
+  }
+
+  .slide .slide__content--headings .top-title{
+    font-size: 50px;
+  }
+
+  .slide .slide__content--headings .title{
+    font-size: 20px;
+  }
+  
+}
+
+
+/*---------------------------------------------------------------*/
+@media (max-width:1500px) and (min-width:1400px){
+
+  #navbar li{
+    margin: 0px 43px;
+  }
+
+  #nosotros h2{
+    font-size: 72px;
+  }
+
+  #h_productos h1{
+    font-size: 74px;
+  }
+
+  #valores h1{
+    font-size: 64px;
+  }
+
+  #valores h2{
+    margin-top: -8%;
+  }
+
+  .valor h1{
+    font-size: 22px;
+  }
+
+  .politicas h1{
+    margin-top: 14%;
+    font-size: 41px;
+  }
+
+  .politicas p{
+    line-height: 26px;
+  }
+
+  #titulo{
+    margin-top: 15%;
+  }
+
+  #titulo h1{
+    font-size: 65px;
+  }
+
+  #banner{
+    margin-top: 13%;
+  }
+
+  .productos_det4{
+    padding-top: 74px;
+    padding-left: 56px;
+    padding-right: 68px;
+  }
+
+  .productos_det5{
+    padding-top: 61px;
+    padding-left: 58px;
+    padding-right: 47px;
+  }
+
+  .productos_det6{
+    padding-top: 86px;
+    padding-left: 66px;
+    padding-right: 46px;
+  }
+
+  .productos_det6 h1{
+    font-size: 45px;
+  }
+
+  .productos_det6 p{
+    font-size: 18px;
+  }
+
+  .detalle_panela h1{
+    font-size: 44px;
+  }
+
+  .detalle_panela{
+    margin-top: 4%;
+  }
+
+  .detalle_panela2{
+    margin-top: 5%;
+    padding-left: 77px;
+    padding-right: 44px;
+  }
+
+  .detalle_panela2 h1{
+    font-size: 46px;
+  }
+
+  .productos_det5 h1{
+    font-size: 46px;
+  }
+
+  .productos_det4 h1{
+    font-size: 46px;
+  }
+
+  .servicios2{
+    margin-top: -3%;
+    padding-left: 5%;
+  }
+
+  .servicios2 p{
+    font-size: 25px;
+  }
+
+  .servicios2 ul li{
+    font-size: 17px;
+  }
+
+  .servicios ul li{
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .servicios p{
+    font-size: 25px;
+  }
+
+  .servicios h1{
+    font-size: 82px;
+  }
+
+  .servicios2 h1{
+    font-size: 82px;
+  }
+
+  .datos h4{
+    font-size: 17px;
+  }
+
+  #datos p{
+    font-size: 17px;
+    line-height: 22px;
+  }
+
+  .productos_det{
+    padding-top: 63px;
+    padding-left: 56px;
+    padding-right: 45px;
+  }
+
+  .productos_det h1{
+    font-size: 46px;
+  }
+
+  .productos_det p{
+    font-size: 17px;
+  }
+
+  #frase h1{
+    font-size: 50px;
+  }
+
+  .productos_det2{
+    padding-top: 64px;
+    padding-left: 56px;
+    padding-right: 61px;
+  }
+
+  .productos_det2 p{
+    font-size: 17px;
+  }
+
+  .productos_det3 p{
+    font-size: 17px;
+  }
+
+  .productos_det3 h1{
+    font-size: 46px;
+  }
+
+  .productos_det3{
+    padding-top: 63px;
+    padding-left: 65px;
+    padding-right: 66px;
+  }
+
+
+}
+
+
+
+/*---------------------------------------------------------------*/
+
+@media (max-width:1700px) and (min-width:1500px){
+
+  #navbar li{
+    margin: 0px 70px;
+  }
+
+  #nosotros h2{
+    font-size: 72px;
+  }
+
+  #h_productos h1{
+    font-size: 74px;
+  }
+
+  #valores h1{
+    font-size: 64px;
+  }
+
+  #valores h2{
+    margin-top: -8%;
+  }
+
+  .valor h1{
+    font-size: 22px;
+  }
+
+  .politicas h1{
+    margin-top: 14%;
+    font-size: 41px;
+  }
+
+  .politicas p{
+    line-height: 26px;
+  }
+
+  #titulo{
+    margin-top: 13%;
+  }
+
+  #titulo h1{
+    font-size: 65px;
+  }
+
+  #banner{
+    margin-top: 13%;
+  }
+
+  .productos_det4{
+    padding-top: 74px;
+    padding-left: 56px;
+    padding-right: 68px;
+  }
+
+  .productos_det5{
+    padding-top: 61px;
+    padding-left: 58px;
+    padding-right: 47px;
+  }
+
+  .productos_det6{
+    padding-top: 86px;
+    padding-left: 66px;
+    padding-right: 46px;
+  }
+
+  .productos_det6 h1{
+    font-size: 45px;
+  }
+
+  .productos_det6 p{
+    font-size: 18px;
+  }
+
+  .detalle_panela h1{
+    font-size: 44px;
+  }
+
+  .detalle_panela{
+    margin-top: 4%;
+  }
+
+  .detalle_panela2{
+    margin-top: 5%;
+    padding-left: 77px;
+    padding-right: 44px;
+  }
+
+  .detalle_panela2 h1{
+    font-size: 46px;
+  }
+
+  .productos_det5 h1{
+    font-size: 46px;
+  }
+
+  .productos_det4 h1{
+    font-size: 46px;
+  }
+
+  .servicios2{
+    margin-top: -3%;
+    padding-left: 5%;
+  }
+
+  .servicios2 p{
+    font-size: 25px;
+  }
+
+  .servicios2 ul li{
+    font-size: 17px;
+  }
+
+  .servicios ul li{
+    font-size: 16px;
+    line-height: 21px;
+  }
+
+  .servicios p{
+    font-size: 25px;
+  }
+
+  .servicios h1{
+    font-size: 82px;
+  }
+
+  .servicios2 h1{
+    font-size: 82px;
+  }
+
+  .datos h4{
+    font-size: 17px;
+  }
+
+  #datos p{
+    font-size: 17px;
+    line-height: 22px;
+  }
+
+  .productos_det{
+    padding-top: 63px;
+    padding-left: 56px;
+    padding-right: 45px;
+  }
+
+  .productos_det h1{
+    font-size: 46px;
+  }
+
+  .productos_det p{
+    font-size: 17px;
+  }
+
+  #frase h1{
+    font-size: 50px;
+  }
+
+  .productos_det2{
+    padding-top: 64px;
+    padding-left: 56px;
+    padding-right: 61px;
+  }
+
+  .productos_det2 p{
+    font-size: 17px;
+  }
+
+  .productos_det3 p{
+    font-size: 17px;
+  }
+
+  .productos_det3 h1{
+    font-size: 46px;
+  }
+
+  .productos_det3{
+    padding-top: 63px;
+    padding-left: 65px;
+    padding-right: 66px;
+  }
+}

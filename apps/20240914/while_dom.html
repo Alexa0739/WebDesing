@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>While Dom</title>
+</head>
+<body>
+ <section id="contenedor"></section>
+
+ <script>
+    const container = document.getElementById("contenedor")
+    let x = 10;
+    while (x > 0) {
+        const paragraph = document.createElement(`p`)
+        paragraph.textContent =  `x vale ${x}`
+        container.appendChild(paragraph)
+        x = x - 1
+    }
+
+
+
+
+ </script>
+
+
+
+    
+</body>
+</html>

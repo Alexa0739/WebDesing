@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEASURE</title>
+    <style>
+        header, main {padding: 1rem; height: 50px;}
+        header {background-color: cornflowerblue;}
+        main{background-color: rgb(182, 173, 246);}
+    </style>
+</head>
+<body>
+    
+    <main></main>
+    <script>
+        const ouput = document.querySelector("main")
+
+        function asknumbers() {
+            number = prompt("Dame un número")
+            qtty = prompt("cuantos multiplos?")
+            data = [number, qtty];
+            return data;
+        }
+
+        function mostrar(number, qtty) {
+            let salida = "";
+            for (let i=1; i<=qtty; i++) {
+                salida += `${number * i} `;
+                console.log(number * i)
+            }
+            console.log(salida);
+            let paragraph = document.createElement('p');
+            paragraph.textContent = salida;
+            ouput.appendChild(paragraph);
+        }
+         
+        let datos = asknumbers();
+
+        mostrar(datos[0], datos[1])
+
+
+    </script>
+    
+</body>
+</html>
+
+
+
+
+

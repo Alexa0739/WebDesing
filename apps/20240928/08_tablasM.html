@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olimeansure</title>
+</head>
+<body>
+    <style>
+        main { background-color: rgb(152, 152, 199); padding: 1rem;}
+    </style>
+    <main>    </main>
+    <script>
+        const container = document.querySelector("main");
+
+        for (let i=2; i<10; i++) {7
+            let salida = ""
+            for (let j=1; j<=10; j++) {
+                salida += `${j * i}`;
+                
+            }
+ 
+            let newparag = document.createElement('p');
+            newparag.textContent = salida;
+            container.appendChild(newparag);
+        }  
+    
+    </script>
+</body>
+</html>
